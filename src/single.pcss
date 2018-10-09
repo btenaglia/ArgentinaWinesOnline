@@ -6,10 +6,32 @@
   display: flex;
   .box {
     &:nth-child(1) {
-      lost-column: 6/12;
+      @media (--mobile) {
+        lost-column: 1/1;
+      }
+      @media (--tabletland) {
+        lost-column: 6/12;
+      }
     }
     &:nth-child(2) {
-      lost-column: 6/12;
+      @media (--mobile) {
+        lost-column: 1/1;
+      }
+      @media (--tabletland) {
+        lost-column: 6/12;
+      }
+    }
+  }
+  img {
+    display: block;
+    margin: auto;
+    @media (--mobile) {
+      float: none;
+      width: 80%;
+    }
+    @media (--tabletland) {
+      float: left;
+      width: 100%;
     }
   }
   .like {
@@ -48,12 +70,9 @@
     width: 100%;
     position: relative;
     @media (--mobile) {
-      margin: 0 0 -30px;
+      margin: 0;
     }
     @media (--tabletport) {
-      margin: 0 0 -30px;
-    }
-    @media (--tabletland) {
       margin: 0 0 -20px;
     }
     @media (--desktop) {
@@ -106,7 +125,7 @@
         font-size: 36px;
       }
       @media (--tabletport) {
-        font-size: 36px;
+        font-size: 32px;
       }
       @media (--tabletland) {
         font-size: 34px;
@@ -133,14 +152,9 @@
         height: 40px;
       }
       @media (--tabletport) {
-        font-size: 16px;
-        line-height: 26px;
-        height: 40px;
-      }
-      @media (--tabletland) {
         font-size: 15px;
         line-height: 25px;
-        height: 38px;
+        height: 37px;
       }
       @media (--desktop) {
         font-size: 16px;
@@ -178,7 +192,7 @@
       margin: 0 0 50px -70px;
     }
     @media (--tabletport) {
-      margin: 0 0 50px -70px;
+      margin: 0 0 50px;
     }
     @media (--tabletland) {
       margin: 0 0 50px -40px;
@@ -199,7 +213,7 @@
         font-size: 16px;
       }
       @media (--tabletport) {
-        font-size: 16px;
+        font-size: 14px;
       }
       @media (--tabletland) {
         font-size: 15px;
@@ -287,7 +301,15 @@
   float: left;
   width: 100%;
   .line {
-    margin: 10px 0 14px;
+    @media (--mobile) {
+      margin: 10px 0 14px;
+    }
+    @media (--tabletport) {
+      margin: 8px 0 12px;
+    }
+    @media (--tabletland) {
+      margin: 10px 0 14px;
+    }
   }
 }
 .fact_component {
@@ -305,9 +327,6 @@
       font-size: 14px;
     }
     @media (--tabletport) {
-      font-size: 14px;
-    }
-    @media (--tabletland) {
       font-size: 13px;
     }
     @media (--desktop) {
@@ -325,7 +344,7 @@
       font-size: 18px;
     }
     @media (--tabletport) {
-      font-size: 18px;
+      font-size: 16px;
     }
     @media (--tabletland) {
       font-size: 17px;
@@ -344,9 +363,6 @@
     margin: 0 0 80px;
   }
   @media (--tabletport) {
-    margin: 0 0 80px;
-  }
-  @media (--tabletland) {
     margin: 0 0 70px;
   }
   @media (--desktop) {
@@ -354,16 +370,41 @@
   }
   .box {
     &:nth-child(1){
-      lost-column: 4/12;
+      @media (--mobile) {
+        lost-column: 4/12;
+      }
+      @media (--tabletport) {
+        lost-column: 5/12;
+      }
+      @media (--tabletland) {
+        lost-column: 4/12;
+      }
     }
     &:nth-child(2){
-      padding-top: 40px;
-      lost-column: 8/12;
+      @media (--mobile) {
+        padding-top: 40px;
+        lost-column: 8/12;
+      }
+      @media (--tabletport) {
+        padding-top: 30px;
+        lost-column: 7/12;
+      }
+      @media (--tabletland) {
+        padding-top: 40px;
+        lost-column: 8/12;
+      }
       .box {
         padding-top: 0;
-        margin-top: 10px;
-        margin-bottom: 40px;
-        lost-column: 1/2;
+        @media (--mobile) {
+          margin-top: 10px;
+          margin-bottom: 20px;
+          lost-column: 1/1;
+        }
+        @media (--tabletland) {
+          margin-top: 10px;
+          margin-bottom: 40px;
+          lost-column: 1/2;
+        }
       }
     }
   }
@@ -373,15 +414,17 @@
     color: var(--naranja);
     letter-spacing: 0;
     line-height: 0.8;
-    margin: 0 0 15px;
     @media (--mobile) {
       font-size: 30px;
+      margin: 0 0 15px;
     }
     @media (--tabletport) {
-      font-size: 30px;
+      font-size: 27px;
+      margin: 0 0 13px;
     }
     @media (--tabletland) {
       font-size: 28px;
+      margin: 0 0 15px;
     }
     @media (--desktop) {
       font-size: 30px;
@@ -389,9 +432,19 @@
   }
   .white_box {
     float: left;
-    width: calc(100% - 40px);
-    padding: 40px 20px 0;
     background: var(--blanco);
+    @media (--mobile) {
+      width: calc(100% - 40px);
+      padding: 40px 20px 0;
+    }
+    @media (--tabletport) {
+      width: calc(100% - 40px);
+      padding: 30px 20px 0;
+    }
+    @media (--tabletland) {
+      width: calc(100% - 40px);
+      padding: 40px 20px 0;
+    }
     .tittle {
       color: var(--negro);
     }
@@ -400,7 +453,7 @@
         margin: 0 0 20px;
       }
       @media (--tabletport) {
-        margin: 0 0 20px;
+        margin: 0 0 16px;
       }
       @media (--tabletland) {
         margin: 0 0 18px;
@@ -414,8 +467,13 @@
     float: left;
     width: 100%;
     .btn_medium {
-      width: 170px;
       margin: 0 0 -20px;
+      @media (--mobile) {
+        width: 100%;
+      }
+      @media (--tabletland) {
+        width: 170px;
+      }
     }
   }
   .box_input {
@@ -425,7 +483,7 @@
       margin: 0 0 20px;
     }
     @media (--tabletport) {
-      margin: 0 0 20px;
+      margin: 0 0 15px;
     }
     @media (--tabletland) {
       margin: 0 0 18px;
@@ -444,9 +502,6 @@
         font-size: 14px;
       }
       @media (--tabletport) {
-        font-size: 14px;
-      }
-      @media (--tabletland) {
         font-size: 13px;
       }
       @media (--desktop) {
@@ -470,7 +525,7 @@
         font-size: 18px;
       }
       @media (--tabletport) {
-        font-size: 18px;
+        font-size: 16px;
       }
       @media (--tabletland) {
         font-size: 17px;
@@ -481,8 +536,19 @@
       &::placeholder {
         font-weight: var(--regular);
         font-style: italic;
-        font-size: 18px;
         color: var(--gris);
+        @media (--mobile) {
+          font-size: 18px;
+        }
+        @media (--tabletport) {
+          font-size: 16px;
+        }
+        @media (--tabletland) {
+          font-size: 17px;
+        }
+        @media (--desktop) {
+          font-size: 18px;
+        }
       }
       &:focus {
         border-bottom: 1px solid var(--grisclaro);
@@ -506,8 +572,8 @@
         line-height: 26px;
       }
       @media (--tabletport) {
-        font-size: 16px;
-        line-height: 26px;
+        font-size: 14px;
+        line-height: 24px;
       }
       @media (--tabletland) {
         font-size: 15px;
@@ -528,8 +594,8 @@
         line-height: 26px;
       }
       @media (--tabletport) {
-        font-size: 16px;
-        line-height: 26px;
+        font-size: 14px;
+        line-height: 24px;
       }
       @media (--tabletland) {
         font-size: 15px;
@@ -552,7 +618,15 @@
       .btn_small {
         float: none;
         display: inline-block;
-        width: 170px;
+        @media (--mobile) {
+          width: 170px;
+        }
+        @media (--tabletport) {
+          width: 200px;
+        }
+        @media (--tabletland) {
+          width: 170px;
+        }
       }
     }
   }
@@ -563,34 +637,74 @@
 #box_more_products {
   float: left;
   width: 100%;
-  padding: 0 0 80px;
+  @media (--mobile) {
+    padding: 0 0 80px;
+  }
+  @media (--tabletport) {
+    padding: 0 0 70px;
+  }
+  @media (--tabletland) {
+    padding: 0 0 80px;
+  }
   .tittle_center {
     margin: 0 0 30px;
   }
   .box {
     &:nth-child(1) {
-      lost-column: 8/12;
+      @media (--mobile) {
+        lost-column: 1/1;
+      }
+      @media (--tabletland) {
+        lost-column: 8/12;
+      }
       .product_single_element {
         margin-left: 0;
         lost-column: 1/4 !important;
       }
     }
     &:nth-child(2) {
-      lost-column: 4/12;
+      @media (--mobile) {
+        lost-column: 1/1;
+      }
+      @media (--tabletland) {
+        lost-column: 4/12;
+      }
       .product_single_element {
         margin-left: 0;
-        lost-column: 1/2 !important;
+        @media (--mobile) {
+          lost-column: 1/2 !important;
+        }
+        @media (--tabletport) {
+          lost-column: 1/4 !important;
+        }
+        @media (--tabletland) {
+          lost-column: 1/2 !important;
+        }
       }
     }
   }
   .full_box {
-    margin: 40px 0 0;
     text-align: center;
+    @media (--mobile) {
+      margin: 40px 0 0;
+    }
+    @media (--tabletport) {
+      margin: 0 0 40px;
+    }
+    @media (--tabletland) {
+      margin: 40px 0 0;
+    }
     &.no_margin {
       margin: 0;}
     .btn_small {
       float: none;
       display: inline-block;
+      @media (--mobile) {
+        width: 170px;
+      }
+      @media (--tabletport) {
+        width: 170px;
+      }
     }
   }
 }
