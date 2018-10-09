@@ -37,13 +37,20 @@
   .like {
     cursor: pointer;
     float: left;
-    width: 25px;
-    height: 21px;
     position: absolute;
-    left: 20px;
-    top: 20px;
     z-index: 10;
-    position: relative;
+    @media (--mobile) {
+      width: 30px;
+      height: 28px;
+      left: 0;
+      top: 0;
+    }
+    @media (--tabletland) {
+      width: 25px;
+      height: 21px;
+      left: 20px;
+      top: 20px;
+    }
     &.active {
       img {
         &.active {
@@ -86,7 +93,7 @@
     z-index: 50;
     .box {
       @media (--mobile) {
-        lost-column: 1/3;
+        lost-column: 1/1;
       }
       @media (--tabletport) {
         lost-column: 1/3;
@@ -122,7 +129,7 @@
       line-height: 0.8;
       margin: 0 0 15px;
       @media (--mobile) {
-        font-size: 36px;
+        font-size: 30px;
       }
       @media (--tabletport) {
         font-size: 32px;
@@ -136,25 +143,26 @@
     }
     input {
       float: left;
-      width: 100%;
-      background: var(--blanco);
+      width: calc(100% - 2px);
       border: 1px solid var(--grisclaro);
+      background: var(--blanco);
       text-align: center;
       padding: 0;
-      margin: 0;
       font-weight: var(--regular);
       color: var(--gris);
       letter-spacing: 0;
       text-align: center;
       @media (--mobile) {
-        font-size: 16px;
-        line-height: 26px;
+        font-size: 14px;
+        line-height: 24px;
         height: 40px;
+        margin: 0 0 20px;
       }
       @media (--tabletport) {
         font-size: 15px;
         line-height: 25px;
         height: 37px;
+        margin: 0;
       }
       @media (--desktop) {
         font-size: 16px;
@@ -164,14 +172,10 @@
       &::placeholder {
         color: var(--gris);
         @media (--mobile) {
-          font-size: 16px;
-          line-height: 26px;
+          font-size: 14px;
+          line-height: 24px;
         }
         @media (--tabletport) {
-          font-size: 16px;
-          line-height: 26px;
-        }
-        @media (--tabletland) {
           font-size: 15px;
           line-height: 25px;
         }
@@ -179,6 +183,14 @@
           font-size: 16px;
           line-height: 26px;
         }
+      }
+    }
+    .btn {
+      @media (--mobile) {
+        margin: 0 0 20px;
+      }
+      @media (--tabletport) {
+        margin: 0;
       }
     }
   }
@@ -189,7 +201,7 @@
     position: relative;
     z-index: 50;
     @media (--mobile) {
-      margin: 0 0 50px -70px;
+      margin: 0 0 30px;
     }
     @media (--tabletport) {
       margin: 0 0 50px;
@@ -208,12 +220,12 @@
       color: var(--gris);
       letter-spacing: 0;
       line-height: 0.8;
-      margin: 5px 0;
       @media (--mobile) {
-        font-size: 16px;
+        font-size: 14px;
+        margin: 20px 0 10px;
       }
       @media (--tabletport) {
-        font-size: 14px;
+        margin: 5px 0;
       }
       @media (--tabletland) {
         font-size: 15px;
@@ -239,12 +251,9 @@
     float: left;
     list-style: none;
     @media (--mobile) {
-      margin: 0 5px 0 0;
+      margin: 0 2px 0 0;
     }
     @media (--tabletport) {
-      margin: 0 5px 0 0;
-    }
-    @media (--tabletland) {
       margin: 0 5px 0 0;
     }
     &:last-child {
@@ -258,11 +267,12 @@
   float: left;
   background: none;
   border: 0 none;
+  padding: 0;
   position: relative;
   outline: none;
   @media (--mobile) {
-    width: 21px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
   }
   @media (--tabletport) {
     width: 21px;
@@ -284,6 +294,7 @@
     }
   }
   img {
+    width: 100% !important;
     position: absolute;
     left: 0;
     top: 0;
@@ -314,8 +325,13 @@
 }
 .fact_component {
   float: left;
-  lost-column: 1/2;
   margin-bottom: 15px;
+  @media (--mobile) {
+    lost-column: 1/1;
+  }
+  @media (--tabletport) {
+    lost-column: 1/2;
+  }
   .comp {
     float: left;
     width: 100%;
@@ -324,9 +340,6 @@
     letter-spacing: 0;
     line-height: 0.8;
     @media (--mobile) {
-      font-size: 14px;
-    }
-    @media (--tabletport) {
       font-size: 13px;
     }
     @media (--desktop) {
@@ -341,9 +354,6 @@
     letter-spacing: 0;
     margin: 0;
     @media (--mobile) {
-      font-size: 18px;
-    }
-    @media (--tabletport) {
       font-size: 16px;
     }
     @media (--tabletland) {
@@ -360,9 +370,6 @@
   background-position: center center !important;
   background-size: cover !important;
   @media (--mobile) {
-    margin: 0 0 80px;
-  }
-  @media (--tabletport) {
     margin: 0 0 70px;
   }
   @media (--desktop) {
@@ -371,7 +378,7 @@
   .box {
     &:nth-child(1){
       @media (--mobile) {
-        lost-column: 4/12;
+        lost-column: 1/1;
       }
       @media (--tabletport) {
         lost-column: 5/12;
@@ -382,11 +389,10 @@
     }
     &:nth-child(2){
       @media (--mobile) {
-        padding-top: 40px;
-        lost-column: 8/12;
+        padding-top: 30px;
+        lost-column: 1/1;
       }
       @media (--tabletport) {
-        padding-top: 30px;
         lost-column: 7/12;
       }
       @media (--tabletland) {
@@ -415,8 +421,8 @@
     letter-spacing: 0;
     line-height: 0.8;
     @media (--mobile) {
-      font-size: 30px;
-      margin: 0 0 15px;
+      font-size: 26px;
+      margin: 0 0 12px;
     }
     @media (--tabletport) {
       font-size: 27px;
@@ -435,7 +441,7 @@
     background: var(--blanco);
     @media (--mobile) {
       width: calc(100% - 40px);
-      padding: 40px 20px 0;
+      padding: 20px 20px;
     }
     @media (--tabletport) {
       width: calc(100% - 40px);
@@ -450,7 +456,7 @@
     }
     .box_stars {
       @media (--mobile) {
-        margin: 0 0 20px;
+        margin: 0 0 15px;
       }
       @media (--tabletport) {
         margin: 0 0 16px;
@@ -467,12 +473,13 @@
     float: left;
     width: 100%;
     .btn_medium {
-      margin: 0 0 -20px;
       @media (--mobile) {
         width: 100%;
+        margin: 0;
       }
       @media (--tabletland) {
         width: 170px;
+        margin: 0 0 -20px;
       }
     }
   }
@@ -480,9 +487,6 @@
     float: left;
     width: 100%;
     @media (--mobile) {
-      margin: 0 0 20px;
-    }
-    @media (--tabletport) {
       margin: 0 0 15px;
     }
     @media (--tabletland) {
@@ -499,9 +503,6 @@
       letter-spacing: 0;
       line-height: 0.8;
       @media (--mobile) {
-        font-size: 14px;
-      }
-      @media (--tabletport) {
         font-size: 13px;
       }
       @media (--desktop) {
@@ -522,9 +523,6 @@
       outline: none;
       transition: var(--animacion);
       @media (--mobile) {
-        font-size: 18px;
-      }
-      @media (--tabletport) {
         font-size: 16px;
       }
       @media (--tabletland) {
@@ -538,9 +536,6 @@
         font-style: italic;
         color: var(--gris);
         @media (--mobile) {
-          font-size: 18px;
-        }
-        @media (--tabletport) {
           font-size: 16px;
         }
         @media (--tabletland) {
@@ -568,10 +563,6 @@
       letter-spacing: 0;
       margin: 0 10px 0 0;
       @media (--mobile) {
-        font-size: 16px;
-        line-height: 26px;
-      }
-      @media (--tabletport) {
         font-size: 14px;
         line-height: 24px;
       }
@@ -590,10 +581,6 @@
       color: var(--grismedio);
       letter-spacing: 0;
       @media (--mobile) {
-        font-size: 16px;
-        line-height: 26px;
-      }
-      @media (--tabletport) {
         font-size: 14px;
         line-height: 24px;
       }
@@ -619,7 +606,7 @@
         float: none;
         display: inline-block;
         @media (--mobile) {
-          width: 170px;
+          width: 100%;
         }
         @media (--tabletport) {
           width: 200px;
@@ -638,9 +625,6 @@
   float: left;
   width: 100%;
   @media (--mobile) {
-    padding: 0 0 80px;
-  }
-  @media (--tabletport) {
     padding: 0 0 70px;
   }
   @media (--tabletland) {
@@ -659,7 +643,12 @@
       }
       .product_single_element {
         margin-left: 0;
-        lost-column: 1/4 !important;
+        @media (--mobile) {
+          lost-column: 1/2 !important;
+        }
+        @media (--tabletport) {
+          lost-column: 1/4 !important;
+        }
       }
     }
     &:nth-child(2) {
@@ -686,9 +675,6 @@
   .full_box {
     text-align: center;
     @media (--mobile) {
-      margin: 40px 0 0;
-    }
-    @media (--tabletport) {
       margin: 0 0 40px;
     }
     @media (--tabletland) {
@@ -700,7 +686,7 @@
       float: none;
       display: inline-block;
       @media (--mobile) {
-        width: 170px;
+        width: 100%;
       }
       @media (--tabletport) {
         width: 170px;
