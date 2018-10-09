@@ -1657,6 +1657,15 @@ img {
 
 /* END SINGLE*/
 
+/* BEGIN SHOPPING CART */
+
+#section_shopping_cart {
+  float: left;
+  width: 100vw;
+}
+
+/* END SHOPPING CART */
+
 @media (min-width: 320px){
 
   body{
@@ -2085,6 +2094,10 @@ img {
 
   .banner_general{
     height: 250px;
+  }
+
+  .banner_general.margin{
+    margin: 136px 0 0;
   }
 
   .banner_general .tittle{
@@ -3291,6 +3304,10 @@ img {
     height: 300px;
   }
 
+  .banner_general.margin{
+    margin: 249px 0 0;
+  }
+
   .banner_general .tittle{
     font-size: 42px;
   }
@@ -4259,6 +4276,10 @@ img {
     height: 380px;
   }
 
+  .banner_general.margin{
+    margin: 274px 0 0;
+  }
+
   .banner_general .tittle{
     font-size: 48px;
   }
@@ -5021,6 +5042,10 @@ img {
 
   .banner_general{
     height: 400px;
+  }
+
+  .banner_general.margin{
+    margin: 299px 0 0;
   }
 
   .banner_general .tittle{
