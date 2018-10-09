@@ -28,7 +28,7 @@
     padding: 20px 0;
     border-bottom: 1px solid var(--grisclaro);
     transition: var(--animacion);
-    &:last-child {
+    &:nth-last-child(2) {
       border-bottom: 0 none;
     }
     &:hover {
@@ -130,6 +130,10 @@
     line-height: 26px;
   }
 }
+.list_result {
+  float: left;
+  width: 100%;
+}
 .btn_tash {
   display: block;
   cursor: pointer;
@@ -144,6 +148,51 @@
     @media (--tabletland) {
       opacity: 0.5;
     }
+  }
+}
+.box_update {
+  float: left;
+  width: 100%;
+  .box {
+    lost-column: 1/4 !important;
+    &:last-child {
+      float: right !important;
+    }
+  }
+  input {
+    height: 40px !important;
+    font-size: 16px !important;
+    line-height: 26px !important;
+    &::placeholder {
+      font-size: 16px !important;
+      line-height: 26px !important;
+    }
+  }
+  button {
+    width: 100%;
+  }
+}
+#box_basket_total {
+  float: left;
+  width: 100%;
+  margin: 80px 0 0;
+  .box {
+    display: inline !important;
+    min-height: inherit !important;
+    &:nth-child(1) {
+      lost-column: 3/8 !important;
+    }
+    &:nth-child(2) {
+      lost-column: 5/8 !important;
+    }
+  }
+  .name,
+  .total {
+    float: left;
+    display: inline;
+  }
+  .btn_small {
+    lost-column: 3/8;
   }
 }
 #sidebar {

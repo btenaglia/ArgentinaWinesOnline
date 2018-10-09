@@ -383,6 +383,19 @@ h1 {
     line-height: 52px;
   }
 }
+h4 {
+  float: left;
+  width: 100%;
+  font-family: var(--font2);
+  font-weight: var(--regular);
+  font-size: 25px;
+  line-height: 0.8;
+  color: var(--dorado);
+  letter-spacing: 0;
+  margin: 0;
+  padding: 0 0 20px;
+  border-bottom: 1px solid var(--dorado);
+}
 h5 {
   float: left;
   width: 100%;
@@ -915,6 +928,46 @@ img {
       @media (--tabletland) {
         color: var(--dorado);
       }
+    }
+  }
+}
+.btn_small_gray {
+  display: block;
+  cursor: pointer;
+  float: left;
+  font-family: var(--font3);
+  font-weight: var(--regular);
+  line-height: 0.8;
+  color: var(--blanco);
+  letter-spacing: 0;
+  text-align: center;
+  background: var(--grismedio);
+  border: 1px solid var(--grismedio);
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: var(--animacion);
+  @media (--mobile) {
+    font-size: 16px;
+    width: 120px;
+    padding: 13px 10px 14px;
+  }
+  @media (--tabletport) {
+    font-size: 16px;
+    width: 120px;
+    padding: 13px 10px 14px;
+  }
+  @media (--tabletland) {
+    font-size: 15px;
+    width: 120px;
+    padding: 12px 10px 13px;
+  }
+  @media (--desktop) {
+    font-size: 16px;
+    padding: 13px 10px 14px;
+  }
+  &:hover {
+    @media (--tabletland) {
+      opacity: 0.5;
     }
   }
 }
