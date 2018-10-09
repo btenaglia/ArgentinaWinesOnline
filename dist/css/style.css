@@ -1901,6 +1901,7 @@ img {
 .list_result {
   float: left;
   width: 100%;
+  margin: 16px 0 0;
 }
 
 .btn_tash {
@@ -2091,6 +2092,56 @@ img {
 }
 
 #sidebar:nth-child(12n + 1){
+  clear: both;
+}
+
+#sidebar .full_box {
+  margin: 0 0 40px;
+}
+
+#sidebar .full_box:last-child {
+  margin: 0;
+}
+
+#sidebar .box_result {
+  float: left;
+  width: 100%;
+}
+
+#sidebar h5 {
+
+  /* Type here: */
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #231F20;
+  letter-spacing: 0;
+  border-bottom: 1px solid #231F20;
+  margin: 0 0 20px;
+  padding: 0 0 10px;
+}
+
+#sidebar .product_single_element {
+  margin-left: 0;
+  width: calc(99.9% * 1/2 - (30px - 30px * 1/2));
+}
+
+#sidebar .product_single_element:nth-child(1n){
+  float: left;
+  margin-right: 30px;
+  clear: none;
+}
+
+#sidebar .product_single_element:last-child{
+  margin-right: 0;
+}
+
+#sidebar .product_single_element:nth-child(2n){
+  margin-right: 0;
+  float: right;
+}
+
+#sidebar .product_single_element:nth-child(2n + 1){
   clear: both;
 }
 

@@ -133,6 +133,7 @@
 .list_result {
   float: left;
   width: 100%;
+  margin: 16px 0 0;
 }
 .btn_tash {
   display: block;
@@ -197,5 +198,30 @@
 }
 #sidebar {
   lost-column: 4/12;
+  .full_box {
+    margin: 0 0 40px;
+    &:last-child {
+      margin: 0;
+    }
+  }
+  .box_result {
+    float: left;
+    width: 100%;
+  }
+  h5 {
+    /* Type here: */
+    font-family: var(--font2);
+    font-weight: var(--regular);
+    font-size: 25px;
+    color: var(--negro);
+    letter-spacing: 0;
+    border-bottom: 1px solid var(--negro);
+    margin: 0 0 20px;
+    padding: 0 0 10px;
+  }
+  .product_single_element {
+    margin-left: 0;
+    lost-column: 1/2;
+  }
 }
 /* END SHOPPING CART */
