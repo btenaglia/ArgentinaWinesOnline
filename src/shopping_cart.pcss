@@ -27,17 +27,50 @@
     width: 100%;
     padding: 20px 0;
     border-bottom: 1px solid var(--grisclaro);
+    transition: var(--animacion);
+    &:last-child {
+      border-bottom: 0 none;
+    }
+    &:hover {
+      @media (--tabletland) {
+        background: rgba(0, 0, 0, 0.03);
+      }
+    }
     .box {
       min-height: 120px;
       display: table;
     }
   }
   .box {
-    lost-column: 1/6;
+    float: left;
+    &:nth-child(1) {
+      width: 30px;
+      margin: 0 10px 0 0;
+    }
+    &:nth-child(2) {
+      width: 110px;
+      margin: 0 10px 0 0;
+    }
+    &:nth-child(3) {
+      width: calc(((100% - (30px + 10px) - (110px + 10px)) / 4) - 10px);
+      margin: 0 10px 0 0;
+    }
+    &:nth-child(4) {
+      width: calc(((100% - (30px + 10px) - (110px + 10px)) / 4) - 10px);
+      margin: 0 10px 0 0;
+    }
+    &:nth-child(5) {
+      width: calc(((100% - (30px + 10px) - (110px + 10px)) / 4) - 10px);
+      margin: 0 10px 0 0;
+    }
+    &:nth-child(6) {
+      width: calc(((100% - (30px + 10px) - (110px + 10px)) / 4));
+    }
   }
   .product {
-    float: left;
-    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    mix-blend-mode: multiply;
   }
   .vertical {
     display: table-cell;
