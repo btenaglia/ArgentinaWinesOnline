@@ -1662,6 +1662,217 @@ img {
 #section_shopping_cart {
   float: left;
   width: 100vw;
+  padding: 80px 0;
+}
+
+#list_product_shop {
+  width: calc(99.9% * 8/12 - (30px - 30px * 8/12));
+}
+
+#list_product_shop:nth-child(1n){
+  float: left;
+  margin-right: 30px;
+  clear: none;
+}
+
+#list_product_shop:last-child{
+  margin-right: 0;
+}
+
+#list_product_shop:nth-child(12n){
+  margin-right: 0;
+  float: right;
+}
+
+#list_product_shop:nth-child(12n + 1){
+  clear: both;
+}
+
+#list_product_shop .top {
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #CE922E;
+}
+
+#list_product_shop .top .tittle {
+  float: left;
+  width: 100%;
+  font-weight: 900;
+  font-size: 14px;
+  color: #CE922E;
+  letter-spacing: 0;
+  line-height: 0.8;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+#list_product_shop .result {
+  float: left;
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+#list_product_shop .result .box {
+  min-height: 120px;
+  display: table;
+}
+
+#list_product_shop .box {
+  width: calc(99.9% * 1/6 - (30px - 30px * 1/6));
+}
+
+#list_product_shop .box:nth-child(1n){
+  float: left;
+  margin-right: 30px;
+  clear: none;
+}
+
+#list_product_shop .box:last-child{
+  margin-right: 0;
+}
+
+#list_product_shop .box:nth-child(6n){
+  margin-right: 0;
+  float: right;
+}
+
+#list_product_shop .box:nth-child(6n + 1){
+  clear: both;
+}
+
+#list_product_shop .product {
+  float: left;
+  width: 100%;
+}
+
+#list_product_shop .vertical {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#list_product_shop .name {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  color: #231F20;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+#list_product_shop .price {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  color: #CE922E;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+#list_product_shop input {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 23px;
+  border: 1px solid #EEEEEE;
+  padding: 0;
+  font-weight: 400;
+  font-size: 14px;
+  color: #898989;
+  letter-spacing: 0;
+  text-align: center;
+  outline: none;
+  -webkit-transition: all 0.3s ease-in-out;
+     -moz-transition: all 0.3s ease-in-out;
+       -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+}
+
+#list_product_shop input::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  color: #898989;
+}
+
+#list_product_shop input:-moz-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  color: #898989;
+}
+
+#list_product_shop input::-moz-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  color: #898989;
+}
+
+#list_product_shop input:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  color: #898989;
+}
+
+#list_product_shop input::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  color: #898989;
+}
+
+#list_product_shop input:focus {
+  border: 1px solid #CE922E;
+}
+
+#list_product_shop .total {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  font-weight: 900;
+  font-size: 16px;
+  color: #CE922E;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+.btn_tash {
+  display: block;
+  cursor: pointer;
+  display: table-cell;
+  vertical-align: middle;
+  border: 0 none;
+  background: none;
+  padding: 0;
+  width: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+     -moz-transition: all 0.3s ease-in-out;
+       -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+}
+
+#sidebar {
+  width: calc(99.9% * 4/12 - (30px - 30px * 4/12));
+}
+
+#sidebar:nth-child(1n){
+  float: left;
+  margin-right: 30px;
+  clear: none;
+}
+
+#sidebar:last-child{
+  margin-right: 0;
+}
+
+#sidebar:nth-child(12n){
+  margin-right: 0;
+  float: right;
+}
+
+#sidebar:nth-child(12n + 1){
+  clear: both;
 }
 
 /* END SHOPPING CART */
@@ -4864,6 +5075,10 @@ img {
 
   #box_more_products .full_box{
     margin: 40px 0 0;
+  }
+
+  .btn_tash:hover{
+    opacity: 0.5;
   }
 }
 
