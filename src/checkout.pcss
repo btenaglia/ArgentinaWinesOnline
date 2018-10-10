@@ -72,6 +72,7 @@
 .box_input {
   float: left;
   width: 100%;
+  position: relative;
   @media (--mobile) {
     margin: 0 0 18px;
   }
@@ -113,8 +114,6 @@
     float: left;
     width: 100%;
     position: relative;
-    padding: 0 0 12px;
-    font-size: 16px;
     line-height: 0.8;
     color: var(--gris);
     font-weight: var(--light);
@@ -123,22 +122,87 @@
     border-bottom: 1px solid var(--grisclaro);
     outline: none;
     transition: var(--animacion);
+    @media (--mobile) {
+      font-size: 14px;
+      padding: 6px 0 8px;
+    }
+    @media (--tabletland) {
+      font-size: 15px;
+      padding: 6px 0 10px;
+    }
+    @media (--desktop) {
+      font-size: 16px;
+      padding: 6px 0 12px;
+    }
     &:hover {
       @media (--tabletland) {
         color: var(--negro);
         border-bottom: 1px solid var(--naranja);
       }
     }
+    &.active {
+      img {
+        transform: rotate(180deg);
+      }
+    }
     img {
       position: absolute;
       right: 0;
+      transition: var(--animacion);
       @media (--mobile) {
-        top: 6px;
+        top: 12px;
         width: 8px;
       }
       @media (--desktop) {
-        top: 3px;
+        top: 13px;
         width: 10px;
+      }
+    }
+  }
+  .select_result {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: calc(100% - 20px);
+    padding: 5px 10px;
+    z-index: 5;
+    background: var(--blanco);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    @media (--mobile) {
+      top: 43px;
+    }
+    @media (--tabletport) {
+      top: 44px;
+    }
+    @media (--tabletland) {
+      top: 46px;
+    }
+    @media (--desktop) {
+      top: 47px;
+    }
+    ul {
+      float: left;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      float: left;
+      width: 100%;
+      list-style: none;
+    }
+    div {
+      cursor: pointer;
+      float: left;
+      width: 100%;
+      font-weight: var(--light);
+      color: var(--grismedio);
+      transition: var(--animacion);
+      @mixin ShoppingCartText {};
+      &:hover {
+        @media (--tabletland) {
+          color: var(--dorado);
+        }
       }
     }
   }

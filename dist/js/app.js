@@ -32,9 +32,15 @@ $(document).ready(function(){
   });
   // END STAR BUTTON
   // BEGIN MORE REVIEWS
-    $('#btn_more_reviews').click(function(){
-      $(this).text('Change text');
-      $('.more_reviews').slideToggle('slow');
-    })
+  $('#btn_more_reviews').click(function(){
+    $(this).text('Change text');
+    $('.more_reviews').slideToggle('slow');
+  });
   // BEGIN MORE REVIEWS
+  // BEGIN SELECT
+  $('.select').click(function(){
+      $(this).toggleClass('active');
+      $(this).next('.select_result').slideToggle('slow');
+  });
+  // END SELECT
 });

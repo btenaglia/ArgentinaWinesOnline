@@ -2045,6 +2045,7 @@ img {
 .box_input {
   float: left;
   width: 100%;
+  position: relative;
 }
 
 .box_input label {
@@ -2210,8 +2211,6 @@ img {
   float: left;
   width: 100%;
   position: relative;
-  padding: 0 0 12px;
-  font-size: 16px;
   line-height: 0.8;
   color: #898989;
   font-weight: 300;
@@ -2225,9 +2224,64 @@ img {
           transition: all 0.3s ease-in-out;
 }
 
+.box_input .select.active img {
+  -webkit-transform: rotate(180deg);
+     -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+       -o-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
 .box_input .select img {
   position: absolute;
   right: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+     -moz-transition: all 0.3s ease-in-out;
+       -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+}
+
+.box_input .select_result {
+  display: none;
+  position: absolute;
+  left: 0;
+  width: -webkit-calc(100% - 20px);
+  width: -moz-calc(100% - 20px);
+  width: calc(100% - 20px);
+  padding: 5px 10px;
+  z-index: 5;
+  background: #ffffff;
+  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.box_input .select_result ul {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.box_input .select_result li {
+  float: left;
+  width: 100%;
+  list-style: none;
+}
+
+.box_input .select_result div {
+  cursor: pointer;
+  float: left;
+  width: 100%;
+  font-weight: 300;
+  color: #BBBBBB;
+  -webkit-transition: all 0.3s ease-in-out;
+     -moz-transition: all 0.3s ease-in-out;
+       -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+  width: 100%;
+  letter-spacing: 0;
+  vertical-align: middle;
 }
 
 #box_difderent_address {
@@ -4029,9 +4083,23 @@ img {
     line-height: 26px;
   }
 
+  .box_input .select{
+    font-size: 14px;
+    padding: 6px 0 8px;
+  }
+
   .box_input .select img{
-    top: 6px;
+    top: 12px;
     width: 8px;
+  }
+
+  .box_input .select_result{
+    top: 43px;
+  }
+
+  .box_input .select_result div{
+    font-size: 14px;
+    line-height: 24px;
   }
 
   #box_difderent_address{
@@ -5250,6 +5318,10 @@ img {
     font-size: 16px;
     line-height: 26px;
   }
+
+  .box_input .select_result{
+    top: 44px;
+  }
 }
 
 @media (min-width: 1024px){
@@ -6461,9 +6533,27 @@ img {
     line-height: 25px;
   }
 
+  .box_input .select{
+    font-size: 15px;
+    padding: 6px 0 10px;
+  }
+
   .box_input .select:hover{
     color: #231F20;
     border-bottom: 1px solid #EE9800;
+  }
+
+  .box_input .select_result{
+    top: 46px;
+  }
+
+  .box_input .select_result div{
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .box_input .select_result div:hover{
+    color: #CE922E;
   }
 
   #box_order .result{
@@ -7126,9 +7216,23 @@ img {
     line-height: 26px;
   }
 
+  .box_input .select{
+    font-size: 16px;
+    padding: 6px 0 12px;
+  }
+
   .box_input .select img{
-    top: 3px;
+    top: 13px;
     width: 10px;
+  }
+
+  .box_input .select_result{
+    top: 47px;
+  }
+
+  .box_input .select_result div{
+    font-size: 16px;
+    line-height: 26px;
   }
 
   #box_difderent_address{
