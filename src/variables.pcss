@@ -103,3 +103,39 @@
     line-height: 26px;
   }
 }
+
+@define-mixin InputForm {
+  float: left;
+  min-width: 100%;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 0 12px;
+  font-size: 16px;
+  line-height: 0.8;
+  color: var(--gris);
+  font-weight: var(--light);
+  letter-spacing: 0;
+  border: 0 none;
+  border-bottom: 1px solid var(--grisclaro);
+  outline: none;
+  transition: var(--animacion);
+  &::placeholder {
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--gris);
+    transition: var(--animacion);
+  }
+  &:focus {
+    color: var(--negro);
+    border-bottom: 1px solid var(--naranja);
+    &::placeholder {
+      color: var(--negro);
+    }
+  }
+}
+
+@define-mixin CheckoutBox {
+  float: left;
+  width: 100%;
+  margin: 0 0 50px;
+}
