@@ -2255,8 +2255,6 @@ img {
 .box_input .select img {
   position: absolute;
   right: 0;
-  top: 3px;
-  width: 10px;
 }
 
 #box_difderent_address {
@@ -4031,6 +4029,11 @@ img {
     line-height: 26px;
   }
 
+  .box_input .select img{
+    top: 3px;
+    width: 10px;
+  }
+
   #box_difderent_address{
     margin: 0 0 50px;
   }
@@ -5168,19 +5171,19 @@ img {
   }
 
   #box_coupon{
-    width: -webkit-calc(100% - 40px);
-    width: -moz-calc(100% - 40px);
-    width: calc(100% - 40px);
-    padding: 15px 20px;
-    margin: 90px 0 50px;
+    width: -webkit-calc(100% - 30px);
+    width: -moz-calc(100% - 30px);
+    width: calc(100% - 30px);
+    padding: 12px 15px;
+    margin: 40px 0;
   }
 
   #box_insourance{
-    margin: 0 0 50px;
+    margin: 0 0 40px;
   }
 
   #box_billing_detail{
-    margin: 0 0 50px;
+    margin: 0 0 40px;
   }
 
   .box_input{
@@ -5188,13 +5191,13 @@ img {
   }
 
   .box_input label{
-    font-size: 16px;
-    margin: 0 0 10px;
+    font-size: 14px;
+    margin: 0 0 8px;
   }
 
   .box_input input{
-    font-size: 16px;
-    padding: 0 0 12px;
+    font-size: 14px;
+    padding: 0 0 8px;
   }
 
   .box_input input::-webkit-input-placeholder{
@@ -5223,8 +5226,8 @@ img {
   }
 
   .box_input textarea{
-    font-size: 16px;
-    padding: 0 0 12px;
+    font-size: 14px;
+    padding: 0 0 8px;
   }
 
   .box_input textarea::-webkit-input-placeholder{
@@ -5252,20 +5255,25 @@ img {
     line-height: 26px;
   }
 
+  .box_input .select img{
+    top: 5px;
+    width: 8px;
+  }
+
   #box_difderent_address{
-    margin: 0 0 50px;
+    margin: 0 0 40px;
   }
 
   #box_order_notes{
-    margin: 0 0 50px;
+    margin: 0 0 40px;
   }
 
   #box_order{
-    margin: 0 0 50px;
+    margin: 0 0 40px;
   }
 
   #box_order .result{
-    padding: 20px 0;
+    padding: 10px 0;
   }
 }
 
@@ -6413,14 +6421,6 @@ img {
     line-height: 25px;
   }
 
-  #box_insourance{
-    margin: 0 0 40px;
-  }
-
-  #box_billing_detail{
-    margin: 0 0 40px;
-  }
-
   .box_input{
     margin: 0 0 18px;
   }
@@ -6493,18 +6493,6 @@ img {
   .box_input .select:hover{
     color: #231F20;
     border-bottom: 1px solid #EE9800;
-  }
-
-  #box_difderent_address{
-    margin: 0 0 40px;
-  }
-
-  #box_order_notes{
-    margin: 0 0 40px;
-  }
-
-  #box_order{
-    margin: 0 0 40px;
   }
 
   #box_order .result{
@@ -7165,6 +7153,11 @@ img {
   .box_input textarea::placeholder{
     font-size: 16px;
     line-height: 26px;
+  }
+
+  .box_input .select img{
+    top: 3px;
+    width: 10px;
   }
 
   #box_difderent_address{
