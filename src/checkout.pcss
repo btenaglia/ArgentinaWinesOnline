@@ -16,11 +16,6 @@
   float: left;
   background: var(--dorado);
   @media (--mobile) {
-    width: calc(100% - 40px);
-    padding: 15px 20px;
-    margin: 90px 0 50px;
-  }
-  @media (--tabletport) {
     width: calc(100% - 30px);
     padding: 12px 15px;
     margin: 40px 0;
@@ -58,22 +53,26 @@
 #box_billing_detail {
   @mixin CheckoutBox {};
   .box {
-    lost-column: 1/2;
+    @media (--mobile) {
+      lost-column: 1/1;
+    }
+    @media (--tabletport) {
+      lost-column: 1/2;
+    }
   }
   h4 {
-    margin: 0 0 20px;
+    @media (--mobile) {
+      margin: 0 0 15px;
+    }
+    @media (--tabletport) {
+      margin: 0 0 20px;
+    }
   }
 }
 .box_input {
   float: left;
   width: 100%;
   @media (--mobile) {
-    margin: 0 0 20px;
-  }
-  @media (--tabletport) {
-    margin: 0 0 20px;
-  }
-  @media (--tabletland) {
     margin: 0 0 18px;
   }
   @media (--desktop) {
@@ -87,12 +86,11 @@
     color: var(--grismedio);
     letter-spacing: 0;
     @media (--mobile) {
-      font-size: 16px;
-      margin: 0 0 10px;
+      font-size: 13px;
+      margin: 0 0 8px;
     }
     @media (--tabletport) {
       font-size: 14px;
-      margin: 0 0 8px;
     }
     @media (--tabletland) {
       font-size: 15px;
@@ -135,11 +133,7 @@
       position: absolute;
       right: 0;
       @media (--mobile) {
-        top: 3px;
-        width: 10px;
-      }
-      @media (--tabletport) {
-        top: 5px;
+        top: 6px;
         width: 8px;
       }
       @media (--desktop) {
@@ -192,9 +186,6 @@
     width: 100%;
     border-bottom: 1px solid var(--grisclaro);
     @media (--mobile) {
-      padding: 20px 0;
-    }
-    @media (--tabletport) {
       padding: 10px 0;
     }
     @media (--tabletland) {

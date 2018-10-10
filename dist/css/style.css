@@ -2042,33 +2042,6 @@ img {
   width: 100%;
 }
 
-#box_billing_detail .box {
-  width: calc(99.9% * 1/2 - (30px - 30px * 1/2));
-}
-
-#box_billing_detail .box:nth-child(1n){
-  float: left;
-  margin-right: 30px;
-  clear: none;
-}
-
-#box_billing_detail .box:last-child{
-  margin-right: 0;
-}
-
-#box_billing_detail .box:nth-child(2n){
-  margin-right: 0;
-  float: right;
-}
-
-#box_billing_detail .box:nth-child(2n + 1){
-  clear: both;
-}
-
-#box_billing_detail h4 {
-  margin: 0 0 20px;
-}
-
 .box_input {
   float: left;
   width: 100%;
@@ -3940,11 +3913,11 @@ img {
   }
 
   #box_coupon{
-    width: -webkit-calc(100% - 40px);
-    width: -moz-calc(100% - 40px);
-    width: calc(100% - 40px);
-    padding: 15px 20px;
-    margin: 90px 0 50px;
+    width: -webkit-calc(100% - 30px);
+    width: -moz-calc(100% - 30px);
+    width: calc(100% - 30px);
+    padding: 12px 15px;
+    margin: 40px 0;
   }
 
   #box_coupon b{
@@ -3953,25 +3926,52 @@ img {
   }
 
   #box_insourance{
-    margin: 0 0 50px;
+    margin: 0 0 40px;
   }
 
   #box_billing_detail{
-    margin: 0 0 50px;
+    margin: 0 0 40px;
+  }
+
+  #box_billing_detail .box{
+    width: calc(99.9% * 1/1 - (30px - 30px * 1/1));
+  }
+
+  #box_billing_detail .box:nth-child(1n){
+    float: left;
+    margin-right: 30px;
+    clear: none;
+  }
+
+  #box_billing_detail .box:last-child{
+    margin-right: 0;
+  }
+
+  #box_billing_detail .box:nth-child(1n){
+    margin-right: 0;
+    float: right;
+  }
+
+  #box_billing_detail .box:nth-child(1n + 1){
+    clear: both;
+  }
+
+  #box_billing_detail h4{
+    margin: 0 0 15px;
   }
 
   .box_input{
-    margin: 0 0 20px;
+    margin: 0 0 18px;
   }
 
   .box_input label{
-    font-size: 16px;
-    margin: 0 0 10px;
+    font-size: 13px;
+    margin: 0 0 8px;
   }
 
   .box_input input{
-    font-size: 16px;
-    padding: 0 0 12px;
+    font-size: 14px;
+    padding: 0 0 8px;
   }
 
   .box_input input::-webkit-input-placeholder{
@@ -4000,8 +4000,8 @@ img {
   }
 
   .box_input textarea{
-    font-size: 16px;
-    padding: 0 0 12px;
+    font-size: 14px;
+    padding: 0 0 8px;
   }
 
   .box_input textarea::-webkit-input-placeholder{
@@ -4030,24 +4030,24 @@ img {
   }
 
   .box_input .select img{
-    top: 3px;
-    width: 10px;
+    top: 6px;
+    width: 8px;
   }
 
   #box_difderent_address{
-    margin: 0 0 50px;
+    margin: 0 0 40px;
   }
 
   #box_order_notes{
-    margin: 0 0 50px;
+    margin: 0 0 40px;
   }
 
   #box_order{
-    margin: 0 0 50px;
+    margin: 0 0 40px;
   }
 
   #box_order .result{
-    padding: 20px 0;
+    padding: 10px 0;
   }
 
   #box_order b{
@@ -5170,34 +5170,35 @@ img {
     clear: both;
   }
 
-  #box_coupon{
-    width: -webkit-calc(100% - 30px);
-    width: -moz-calc(100% - 30px);
-    width: calc(100% - 30px);
-    padding: 12px 15px;
-    margin: 40px 0;
+  #box_billing_detail .box{
+    width: calc(99.9% * 1/2 - (30px - 30px * 1/2));
   }
 
-  #box_insourance{
-    margin: 0 0 40px;
+  #box_billing_detail .box:nth-child(1n){
+    float: left;
+    margin-right: 30px;
+    clear: none;
   }
 
-  #box_billing_detail{
-    margin: 0 0 40px;
+  #box_billing_detail .box:last-child{
+    margin-right: 0;
   }
 
-  .box_input{
+  #box_billing_detail .box:nth-child(2n){
+    margin-right: 0;
+    float: right;
+  }
+
+  #box_billing_detail .box:nth-child(2n + 1){
+    clear: both;
+  }
+
+  #box_billing_detail h4{
     margin: 0 0 20px;
   }
 
   .box_input label{
     font-size: 14px;
-    margin: 0 0 8px;
-  }
-
-  .box_input input{
-    font-size: 14px;
-    padding: 0 0 8px;
   }
 
   .box_input input::-webkit-input-placeholder{
@@ -5225,11 +5226,6 @@ img {
     line-height: 26px;
   }
 
-  .box_input textarea{
-    font-size: 14px;
-    padding: 0 0 8px;
-  }
-
   .box_input textarea::-webkit-input-placeholder{
     font-size: 16px;
     line-height: 26px;
@@ -5253,27 +5249,6 @@ img {
   .box_input textarea::placeholder{
     font-size: 16px;
     line-height: 26px;
-  }
-
-  .box_input .select img{
-    top: 5px;
-    width: 8px;
-  }
-
-  #box_difderent_address{
-    margin: 0 0 40px;
-  }
-
-  #box_order_notes{
-    margin: 0 0 40px;
-  }
-
-  #box_order{
-    margin: 0 0 40px;
-  }
-
-  #box_order .result{
-    padding: 10px 0;
   }
 }
 
@@ -6419,10 +6394,6 @@ img {
   #box_coupon b{
     font-size: 15px;
     line-height: 25px;
-  }
-
-  .box_input{
-    margin: 0 0 18px;
   }
 
   .box_input label{
