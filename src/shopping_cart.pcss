@@ -14,12 +14,23 @@
       float: left;
       width: 100%;
       font-weight: var(--black);
-      font-size: 14px;
       color: var(--dorado);
       letter-spacing: 0;
       line-height: 0.8;
       text-transform: uppercase;
       text-align: left;
+      @media (--mobile) {
+        font-size: 14px;
+      }
+      @media (--tabletport) {
+        font-size: 14px;
+      }
+      @media (--tabletland) {
+        font-size: 13px;
+      }
+      @media (--desktop) {
+        font-size: 14px;
+      }
     }
   }
   .result {
@@ -81,20 +92,18 @@
     vertical-align: middle;
     width: 100%;
     font-weight: var(--regular);
-    font-size: 16px;
     color: var(--negro);
     letter-spacing: 0;
-    line-height: 26px;
+    @mixin ShoppingCartText {};
   }
   .price {
     display: table-cell;
     vertical-align: middle;
     width: 100%;
     font-weight: var(--regular);
-    font-size: 16px;
     color: var(--dorado);
     letter-spacing: 0;
-    line-height: 26px;
+    @mixin ShoppingCartText {};
   }
   input {
     display: table-cell;
@@ -124,10 +133,9 @@
     vertical-align: middle;
     width: 100%;
     font-weight: var(--black);
-    font-size: 16px;
     color: var(--dorado);
     letter-spacing: 0;
-    line-height: 26px;
+    @mixin ShoppingCartText {};
   }
 }
 .list_result {
@@ -161,12 +169,21 @@
     }
   }
   input {
-    height: 40px !important;
-    font-size: 16px !important;
-    line-height: 26px !important;
+    @media (--mobile) {
+      height: 40px !important;
+    }
+    @media (--tabletport) {
+      height: 40px !important;
+    }
+    @media (--tabletland) {
+      height: 37px !important;
+    }
+    @media (--desktop) {
+      height: 40px !important;
+    }
+    @mixin ShoppingCartText {};
     &::placeholder {
-      font-size: 16px !important;
-      line-height: 26px !important;
+      @mixin ShoppingCartText {};
     }
   }
   button {

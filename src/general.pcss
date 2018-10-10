@@ -882,45 +882,7 @@ img {
   }
 }
 .btn_small {
-  display: block;
-  cursor: pointer;
-  float: left;
-  font-family: var(--font3);
-  font-weight: var(--regular);
-  line-height: 0.8;
-  color: var(--blanco);
-  letter-spacing: 0;
-  text-align: center;
-  background: var(--dorado);
-  border: 1px solid var(--dorado);
-  text-transform: uppercase;
-  text-decoration: none;
-  transition: var(--animacion);
-  @media (--mobile) {
-    font-size: 16px;
-    width: 120px;
-    padding: 13px 10px 14px;
-  }
-  @media (--tabletport) {
-    font-size: 16px;
-    width: 120px;
-    padding: 13px 10px 14px;
-  }
-  @media (--tabletland) {
-    font-size: 15px;
-    width: 120px;
-    padding: 12px 10px 13px;
-  }
-  @media (--desktop) {
-    font-size: 16px;
-    padding: 13px 10px 14px;
-  }
-  &:hover {
-    @media (--tabletland) {
-      background: var(--negro);
-      color: var(--naranja);
-    }
-  }
+  @mixin BtnSmall var(--blanco) , var(--dorado) , var(--dorado) , var(--negro) {};
   &.dorado {
     background: var(--dorado);
     border: 1px solid var(--dorado);
@@ -932,39 +894,7 @@ img {
   }
 }
 .btn_small_gray {
-  display: block;
-  cursor: pointer;
-  float: left;
-  font-family: var(--font3);
-  font-weight: var(--regular);
-  line-height: 0.8;
-  color: var(--blanco);
-  letter-spacing: 0;
-  text-align: center;
-  background: var(--grismedio);
-  border: 1px solid var(--grismedio);
-  text-transform: uppercase;
-  text-decoration: none;
-  transition: var(--animacion);
-  @media (--mobile) {
-    font-size: 16px;
-    width: 120px;
-    padding: 13px 10px 14px;
-  }
-  @media (--tabletport) {
-    font-size: 16px;
-    width: 120px;
-    padding: 13px 10px 14px;
-  }
-  @media (--tabletland) {
-    font-size: 15px;
-    width: 120px;
-    padding: 12px 10px 13px;
-  }
-  @media (--desktop) {
-    font-size: 16px;
-    padding: 13px 10px 14px;
-  }
+  @mixin BtnSmall var(--blanco) , var(--grismedio) , var(--blanco) , var(--grismedio) {};
   &:hover {
     @media (--tabletland) {
       opacity: 0.5;

@@ -32,3 +32,64 @@
 @custom-media --tabletland (min-width: 1024px);
 @custom-media --desktop (min-width: 1200px);
 @custom-media --retina (-webkit-min-device-pixel-ratio: 2);
+
+@define-mixin BtnSmall $Color , $Bg , $ColorHover , $BgHover{
+  display: block;
+  cursor: pointer;
+  float: left;
+  font-family: var(--font3);
+  font-weight: var(--regular);
+  line-height: 0.8;
+  color: $(Color);
+  letter-spacing: 0;
+  text-align: center;
+  background: $(Bg);
+  border: 1px solid $(Bg);
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: var(--animacion);
+  @media (--mobile) {
+    font-size: 16px;
+    width: 120px;
+    padding: 13px 10px 14px;
+  }
+  @media (--tabletport) {
+    font-size: 16px;
+    width: 120px;
+    padding: 13px 10px 14px;
+  }
+  @media (--tabletland) {
+    font-size: 15px;
+    width: 120px;
+    padding: 12px 10px 13px;
+  }
+  @media (--desktop) {
+    font-size: 16px;
+    padding: 13px 10px 14px;
+  }
+  &:hover {
+    @media (--tabletland) {
+      background: $(BgHover);
+      color: $(ColorHover);
+    }
+  }
+}
+
+@define-mixin ShoppingCartText {
+  @media (--mobile) {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  @media (--tabletport) {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  @media (--tabletland) {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  @media (--desktop) {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
