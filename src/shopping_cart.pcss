@@ -3,7 +3,7 @@
   float: left;
   width: 100vw;
   @media (--mobile) {
-    padding: 80px 0;
+    padding: 60px 0;
   }
   @media (--tabletport) {
     padding: 70px 0;
@@ -23,6 +23,12 @@
     float: left;
     width: 100%;
     border-bottom: 1px solid var(--dorado);
+    @media (--mobile) {
+      display: none;
+    }
+    @media (--tabletport) {
+      display: block;
+    }
     .tittle {
       float: left;
       width: 100%;
@@ -49,7 +55,7 @@
     border-bottom: 1px solid var(--grisclaro);
     transition: var(--animacion);
     @media (--mobile) {
-      padding: 20px 0;
+      padding: 14px 0;
     }
     @media (--tabletport) {
       padding: 16px 0;
@@ -69,34 +75,74 @@
       }
     }
     .box {
-      min-height: 120px;
-      display: table;
+      @media (--mobile) {
+        min-height: initial;
+        display: inline;
+      }
+      @media (--tabletport) {
+        min-height: 120px;
+        display: table;
+      }
     }
   }
   .box {
     float: left;
     &:nth-child(1) {
-      width: 30px;
-      margin: 0 10px 0 0;
+      @media (--mobile) {
+        width: calc(20% - 10px);
+        margin: 70px 10px 0 0;
+      }
+      @media (--tabletport) {
+        width: 30px;
+        margin: 0 10px 0 0;
+      }
     }
     &:nth-child(2) {
-      width: 110px;
       margin: 0 10px 0 0;
+      @media (--mobile) {
+        width: calc(80% - 10px);
+      }
+      @media (--tabletport) {
+        width: 110px;
+      }
     }
     &:nth-child(3) {
-      width: calc(((100% - (30px + 10px) - (110px + 10px)) / 4) - 10px);
-      margin: 0 10px 0 0;
+      @media (--mobile) {
+        width: 100%;
+        margin: 0 0 10px;
+      }
+      @media (--tabletport) {
+        width: calc(((100% - (30px + 10px) - (110px + 10px)) / 4) - 10px);
+        margin: 0 10px 0 0;
+      }
     }
     &:nth-child(4) {
-      width: calc(((100% - (30px + 10px) - (110px + 10px)) / 4) - 10px);
-      margin: 0 10px 0 0;
+      @media (--mobile) {
+        width: calc((100% / 2) - 10px);
+        margin: 0 10px 10px 0;
+      }
+      @media (--tabletport) {
+        width: calc(((100% - (30px + 10px) - (110px + 10px)) / 4) - 10px);
+        margin: 0 10px 0 0;
+      }
     }
     &:nth-child(5) {
-      width: calc(((100% - (30px + 10px) - (110px + 10px)) / 4) - 10px);
-      margin: 0 10px 0 0;
+      @media (--mobile) {
+        width: calc(100% / 2);
+        margin: 0 0 10px;
+      }
+      @media (--tabletport) {
+        width: calc(((100% - (30px + 10px) - (110px + 10px)) / 4) - 10px);
+        margin: 0 10px 0 0;
+      }
     }
     &:nth-child(6) {
-      width: calc(((100% - (30px + 10px) - (110px + 10px)) / 4));
+      @media (--mobile) {
+        width: 100%;
+      }
+      @media (--tabletport) {
+        width: calc(((100% - (30px + 10px) - (110px + 10px)) / 4));
+      }
     }
   }
   .product {
@@ -175,9 +221,23 @@
   float: left;
   width: 100%;
   .box {
-    lost-column: 1/4 !important;
+    @media (--mobile) {
+      margin-top: 0 !important;
+      margin-bottom: 10px !important;
+      lost-column: 1/1 !important;
+    }
+    @media (--tabletport) {
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+      lost-column: 1/4 !important;
+    }
     &:last-child {
-      float: right !important;
+      @media (--mobile) {
+        float: left !important;
+      }
+      @media (--tabletport) {
+        float: right !important;
+      }
     }
   }
   input {
@@ -206,7 +266,7 @@
   float: left;
   width: 100%;
   @media (--mobile) {
-    margin: 80px 0 0;
+    margin: 50px 0 0;
   }
   @media (--tabletport) {
     margin: 60px 0 0;
@@ -221,11 +281,16 @@
     display: inline !important;
     min-height: inherit !important;
     &:nth-child(1) {
+      margin-top: 0 !important;
       lost-column: 3/8 !important;
     }
     &:nth-child(2) {
       lost-column: 5/8 !important;
     }
+  }
+  .box_result {
+    float: left;
+    width: 100%;
   }
   .name,
   .total {
@@ -233,7 +298,12 @@
     display: inline;
   }
   .btn_small {
-    lost-column: 3/8;
+    @media (--mobile) {
+      lost-column: 1/1;
+    }
+    @media (--tabletport) {
+      lost-column: 3/8;
+    }
   }
 }
 #sidebar {
@@ -262,9 +332,9 @@
     letter-spacing: 0;
     border-bottom: 1px solid var(--negro);
     @media (--mobile) {
-      font-size: 25px;
-      margin: 0 0 20px;
-      padding: 0 0 10px;
+      font-size: 23px;
+      margin: 0 0 16px;
+      padding: 0 0 5px;
     }
     @media (--tabletport) {
       font-size: 24px;
