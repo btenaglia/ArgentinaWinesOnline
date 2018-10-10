@@ -14,18 +14,33 @@
 #box_coupon {
   cursor: pointer;
   float: left;
-  width: calc(100% - 40px);
-  padding: 15px 20px;
-  margin: 90px 0 50px;
   background: var(--dorado);
+  @media (--mobile) {
+    width: calc(100% - 40px);
+    padding: 15px 20px;
+    margin: 90px 0 50px;
+  }
+  @media (--tabletport) {
+    width: calc(100% - 40px);
+    padding: 15px 20px;
+    margin: 90px 0 50px;
+  }
+  @media (--tabletland) {
+    width: calc(100% - 40px);
+    padding: 13px 20px;
+    margin: 50px 0;
+  }
+  @media (--desktop) {
+    padding: 15px 20px;
+    margin: 90px 0 50px;
+  }
   b {
     float: left;
     width: 100%;
     font-weight: var(--black);
-    font-size: 16px;
     color: var(--blanco);
     letter-spacing: 0;
-    line-height: 26px;
+    @mixin ShoppingCartText {};
   }
 }
 #box_insourance {
@@ -52,16 +67,41 @@
 .box_input {
   float: left;
   width: 100%;
-  margin: 0 0 20px;
+  @media (--mobile) {
+    margin: 0 0 20px;
+  }
+  @media (--tabletport) {
+    margin: 0 0 20px;
+  }
+  @media (--tabletland) {
+    margin: 0 0 18px;
+  }
+  @media (--desktop) {
+    margin: 0 0 20px;
+  }
   label {
     float: left;
     width: 100%;
     font-weight: var(--light);
-    font-size: 16px;
     line-height: 0.8;
     color: var(--grismedio);
     letter-spacing: 0;
-    margin: 0 0 10px;
+    @media (--mobile) {
+      font-size: 16px;
+      margin: 0 0 10px;
+    }
+    @media (--tabletport) {
+      font-size: 16px;
+      margin: 0 0 10px;
+    }
+    @media (--tabletland) {
+      font-size: 15px;
+      margin: 0 0 9px;
+    }
+    @media (--desktop) {
+      font-size: 16px;
+      margin: 0 0 10px;
+    }
   }
   input {
     @mixin InputForm {};
@@ -137,21 +177,22 @@
   .box {
     lost-column: 1/2;
   }
-  .tittle {
-    float: left;
-    width: 100%;
-    font-weight: var(--black);
-    font-size: 14px;
-    color: var(--dorado);
-    letter-spacing: 0;
-    line-height: 0.8;
-    text-transform: uppercase;
-  }
   .result {
     float: left;
     width: 100%;
-    padding: 20px 0;
     border-bottom: 1px solid var(--grisclaro);
+    @media (--mobile) {
+      padding: 20px 0;
+    }
+    @media (--tabletport) {
+      padding: 20px 0;
+    }
+    @media (--tabletland) {
+      padding: 15px 0;
+    }
+    @media (--desktop) {
+      padding: 20px 0;
+    }
     &:last-child {
       border-bottom: 0 none;
     }

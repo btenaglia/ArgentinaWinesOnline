@@ -109,8 +109,6 @@
   min-width: 100%;
   width: 100%;
   max-width: 100%;
-  padding: 0 0 12px;
-  font-size: 16px;
   line-height: 0.8;
   color: var(--gris);
   font-weight: var(--light);
@@ -119,11 +117,41 @@
   border-bottom: 1px solid var(--grisclaro);
   outline: none;
   transition: var(--animacion);
-  &::placeholder {
+  @media (--mobile) {
     font-size: 16px;
-    line-height: 26px;
+    padding: 0 0 12px;
+  }
+  @media (--tabletport) {
+    font-size: 16px;
+    padding: 0 0 12px;
+  }
+  @media (--tabletland) {
+    font-size: 15px;
+    padding: 0 0 10px;
+  }
+  @media (--desktop) {
+    font-size: 16px;
+    padding: 0 0 12px;
+  }
+  &::placeholder {
     color: var(--gris);
     transition: var(--animacion);
+    @media (--mobile) {
+      font-size: 16px;
+      line-height: 26px;
+    }
+    @media (--tabletport) {
+      font-size: 16px;
+      line-height: 26px;
+    }
+    @media (--tabletland) {
+      font-size: 15px;
+      line-height: 25px;
+    }
+    @media (--desktop) {
+      font-size: 16px;
+      line-height: 26px;
+    }
   }
   &:focus {
     color: var(--negro);
@@ -137,5 +165,16 @@
 @define-mixin CheckoutBox {
   float: left;
   width: 100%;
-  margin: 0 0 50px;
+  @media (--mobile) {
+    margin: 0 0 50px;
+  }
+  @media (--tabletport) {
+    margin: 0 0 50px;
+  }
+  @media (--tabletland) {
+    margin: 0 0 40px;
+  }
+  @media (--desktop) {
+    margin: 0 0 50px;
+  }
 }

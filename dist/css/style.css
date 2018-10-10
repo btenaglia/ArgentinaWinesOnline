@@ -1706,17 +1706,6 @@ img {
   border-bottom: 1px solid #CE922E;
 }
 
-#list_product_shop .top .tittle {
-  float: left;
-  width: 100%;
-  font-weight: 900;
-  color: #CE922E;
-  letter-spacing: 0;
-  line-height: 0.8;
-  text-transform: uppercase;
-  text-align: left;
-}
-
 #list_product_shop .result {
   float: left;
   width: 100%;
@@ -1990,6 +1979,17 @@ img {
   margin-bottom: 20px;
 }
 
+.tittleProduct {
+  float: left;
+  width: 100%;
+  font-weight: 900;
+  color: #CE922E;
+  letter-spacing: 0;
+  line-height: 0.8;
+  text-transform: uppercase;
+  text-align: left;
+}
+
 /* END SHOPPING CART */
 
 /* BEGIN CHECKOUT */
@@ -2005,11 +2005,6 @@ img {
 #box_coupon {
   cursor: pointer;
   float: left;
-  width: -webkit-calc(100% - 40px);
-  width: -moz-calc(100% - 40px);
-  width: calc(100% - 40px);
-  padding: 15px 20px;
-  margin: 90px 0 50px;
   background: #CE922E;
 }
 
@@ -2017,16 +2012,16 @@ img {
   float: left;
   width: 100%;
   font-weight: 900;
-  font-size: 16px;
   color: #ffffff;
   letter-spacing: 0;
-  line-height: 26px;
+  width: 100%;
+  letter-spacing: 0;
+  vertical-align: middle;
 }
 
 #box_insourance {
   float: left;
   width: 100%;
-  margin: 0 0 50px;
 }
 
 #box_insourance input {
@@ -2045,7 +2040,6 @@ img {
 #box_billing_detail {
   float: left;
   width: 100%;
-  margin: 0 0 50px;
 }
 
 #box_billing_detail .box {
@@ -2078,18 +2072,15 @@ img {
 .box_input {
   float: left;
   width: 100%;
-  margin: 0 0 20px;
 }
 
 .box_input label {
   float: left;
   width: 100%;
   font-weight: 300;
-  font-size: 16px;
   line-height: 0.8;
   color: #BBBBBB;
   letter-spacing: 0;
-  margin: 0 0 10px;
 }
 
 .box_input input {
@@ -2097,8 +2088,6 @@ img {
   min-width: 100%;
   width: 100%;
   max-width: 100%;
-  padding: 0 0 12px;
-  font-size: 16px;
   line-height: 0.8;
   color: #898989;
   font-weight: 300;
@@ -2113,39 +2102,29 @@ img {
 }
 
 .box_input input::-webkit-input-placeholder{
-  font-size: 16px;
-  line-height: 26px;
   color: #898989;
   -webkit-transition: all 0.3s ease-in-out;
           transition: all 0.3s ease-in-out;
 }
 
 .box_input input:-moz-placeholder{
-  font-size: 16px;
-  line-height: 26px;
   color: #898989;
   -moz-transition: all 0.3s ease-in-out;
        transition: all 0.3s ease-in-out;
 }
 
 .box_input input::-moz-placeholder{
-  font-size: 16px;
-  line-height: 26px;
   color: #898989;
   -moz-transition: all 0.3s ease-in-out;
        transition: all 0.3s ease-in-out;
 }
 
 .box_input input:-ms-input-placeholder{
-  font-size: 16px;
-  line-height: 26px;
   color: #898989;
   transition: all 0.3s ease-in-out;
 }
 
 .box_input input::placeholder{
-  font-size: 16px;
-  line-height: 26px;
   color: #898989;
   -webkit-transition: all 0.3s ease-in-out;
      -moz-transition: all 0.3s ease-in-out;
@@ -2184,8 +2163,6 @@ img {
   min-width: 100%;
   width: 100%;
   max-width: 100%;
-  padding: 0 0 12px;
-  font-size: 16px;
   line-height: 0.8;
   color: #898989;
   font-weight: 300;
@@ -2200,39 +2177,29 @@ img {
 }
 
 .box_input textarea::-webkit-input-placeholder{
-  font-size: 16px;
-  line-height: 26px;
   color: #898989;
   -webkit-transition: all 0.3s ease-in-out;
           transition: all 0.3s ease-in-out;
 }
 
 .box_input textarea:-moz-placeholder{
-  font-size: 16px;
-  line-height: 26px;
   color: #898989;
   -moz-transition: all 0.3s ease-in-out;
        transition: all 0.3s ease-in-out;
 }
 
 .box_input textarea::-moz-placeholder{
-  font-size: 16px;
-  line-height: 26px;
   color: #898989;
   -moz-transition: all 0.3s ease-in-out;
        transition: all 0.3s ease-in-out;
 }
 
 .box_input textarea:-ms-input-placeholder{
-  font-size: 16px;
-  line-height: 26px;
   color: #898989;
   transition: all 0.3s ease-in-out;
 }
 
 .box_input textarea::placeholder{
-  font-size: 16px;
-  line-height: 26px;
   color: #898989;
   -webkit-transition: all 0.3s ease-in-out;
      -moz-transition: all 0.3s ease-in-out;
@@ -2295,7 +2262,6 @@ img {
 #box_difderent_address {
   float: left;
   width: 100%;
-  margin: 0 0 50px;
 }
 
 #box_difderent_address button {
@@ -2321,14 +2287,12 @@ img {
 
 #box_order_notes {
   float: left;
-  width: 100%;
-  margin: 0 0 50px;
+  width: 100%;;
 }
 
 #box_order {
   float: left;
   width: 100%;
-  margin: 0 0 50px;
 }
 
 #box_order h4 {
@@ -2365,21 +2329,9 @@ img {
   clear: both;
 }
 
-#box_order .tittle {
-  float: left;
-  width: 100%;
-  font-weight: 900;
-  font-size: 14px;
-  color: #CE922E;
-  letter-spacing: 0;
-  line-height: 0.8;
-  text-transform: uppercase;
-}
-
 #box_order .result {
   float: left;
   width: 100%;
-  padding: 20px 0;
   border-bottom: 1px solid #EEEEEE;
 }
 
@@ -3761,10 +3713,6 @@ img {
     display: none;
   }
 
-  #list_product_shop .top .tittle{
-    font-size: 12px;
-  }
-
   #list_product_shop .result{
     padding: 14px 0;
   }
@@ -3966,6 +3914,10 @@ img {
     clear: both;
   }
 
+  .tittleProduct{
+    font-size: 12px;
+  }
+
   #box_checkout{
     width: calc(99.9% * 1/1 - (30px - 30px * 1/1));
   }
@@ -3987,6 +3939,112 @@ img {
 
   #box_checkout:nth-child(1n + 1){
     clear: both;
+  }
+
+  #box_coupon{
+    width: -webkit-calc(100% - 40px);
+    width: -moz-calc(100% - 40px);
+    width: calc(100% - 40px);
+    padding: 15px 20px;
+    margin: 90px 0 50px;
+  }
+
+  #box_coupon b{
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  #box_insourance{
+    margin: 0 0 50px;
+  }
+
+  #box_billing_detail{
+    margin: 0 0 50px;
+  }
+
+  .box_input{
+    margin: 0 0 20px;
+  }
+
+  .box_input label{
+    font-size: 16px;
+    margin: 0 0 10px;
+  }
+
+  .box_input input{
+    font-size: 16px;
+    padding: 0 0 12px;
+  }
+
+  .box_input input::-webkit-input-placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .box_input input:-moz-placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .box_input input::-moz-placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .box_input input:-ms-input-placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .box_input input::placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .box_input textarea{
+    font-size: 16px;
+    padding: 0 0 12px;
+  }
+
+  .box_input textarea::-webkit-input-placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .box_input textarea:-moz-placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .box_input textarea::-moz-placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .box_input textarea:-ms-input-placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .box_input textarea::placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  #box_difderent_address{
+    margin: 0 0 50px;
+  }
+
+  #box_order_notes{
+    margin: 0 0 50px;
+  }
+
+  #box_order{
+    margin: 0 0 50px;
+  }
+
+  #box_order .result{
+    padding: 20px 0;
   }
 
   #box_order b{
@@ -5108,6 +5166,107 @@ img {
   #sidebar .product_single_element:nth-child(4n + 1){
     clear: both;
   }
+
+  #box_coupon{
+    width: -webkit-calc(100% - 40px);
+    width: -moz-calc(100% - 40px);
+    width: calc(100% - 40px);
+    padding: 15px 20px;
+    margin: 90px 0 50px;
+  }
+
+  #box_insourance{
+    margin: 0 0 50px;
+  }
+
+  #box_billing_detail{
+    margin: 0 0 50px;
+  }
+
+  .box_input{
+    margin: 0 0 20px;
+  }
+
+  .box_input label{
+    font-size: 16px;
+    margin: 0 0 10px;
+  }
+
+  .box_input input{
+    font-size: 16px;
+    padding: 0 0 12px;
+  }
+
+  .box_input input::-webkit-input-placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .box_input input:-moz-placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .box_input input::-moz-placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .box_input input:-ms-input-placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .box_input input::placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .box_input textarea{
+    font-size: 16px;
+    padding: 0 0 12px;
+  }
+
+  .box_input textarea::-webkit-input-placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .box_input textarea:-moz-placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .box_input textarea::-moz-placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .box_input textarea:-ms-input-placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .box_input textarea::placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  #box_difderent_address{
+    margin: 0 0 50px;
+  }
+
+  #box_order_notes{
+    margin: 0 0 50px;
+  }
+
+  #box_order{
+    margin: 0 0 50px;
+  }
+
+  #box_order .result{
+    padding: 20px 0;
+  }
 }
 
 @media (min-width: 1024px){
@@ -6091,10 +6250,6 @@ img {
     clear: both;
   }
 
-  #list_product_shop .top .tittle{
-    font-size: 13px;
-  }
-
   #list_product_shop .result{
     padding: 19px 0;
   }
@@ -6218,6 +6373,10 @@ img {
     filter: grayscale();
   }
 
+  .tittleProduct{
+    font-size: 13px;
+  }
+
   #box_checkout{
     width: calc(99.9% * 8/12 - (30px - 30px * 8/12));
   }
@@ -6241,9 +6400,115 @@ img {
     clear: both;
   }
 
+  #box_coupon{
+    width: -webkit-calc(100% - 40px);
+    width: -moz-calc(100% - 40px);
+    width: calc(100% - 40px);
+    padding: 13px 20px;
+    margin: 50px 0;
+  }
+
+  #box_coupon b{
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  #box_insourance{
+    margin: 0 0 40px;
+  }
+
+  #box_billing_detail{
+    margin: 0 0 40px;
+  }
+
+  .box_input{
+    margin: 0 0 18px;
+  }
+
+  .box_input label{
+    font-size: 15px;
+    margin: 0 0 9px;
+  }
+
+  .box_input input{
+    font-size: 15px;
+    padding: 0 0 10px;
+  }
+
+  .box_input input::-webkit-input-placeholder{
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .box_input input:-moz-placeholder{
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .box_input input::-moz-placeholder{
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .box_input input:-ms-input-placeholder{
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .box_input input::placeholder{
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .box_input textarea{
+    font-size: 15px;
+    padding: 0 0 10px;
+  }
+
+  .box_input textarea::-webkit-input-placeholder{
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .box_input textarea:-moz-placeholder{
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .box_input textarea::-moz-placeholder{
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .box_input textarea:-ms-input-placeholder{
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .box_input textarea::placeholder{
+    font-size: 15px;
+    line-height: 25px;
+  }
+
   .box_input .select:hover{
     color: #231F20;
     border-bottom: 1px solid #EE9800;
+  }
+
+  #box_difderent_address{
+    margin: 0 0 40px;
+  }
+
+  #box_order_notes{
+    margin: 0 0 40px;
+  }
+
+  #box_order{
+    margin: 0 0 40px;
+  }
+
+  #box_order .result{
+    padding: 15px 0;
   }
 
   #box_order b{
@@ -6748,10 +7013,6 @@ img {
     margin: 299px 0 0;
   }
 
-  #list_product_shop .top .tittle{
-    font-size: 14px;
-  }
-
   #list_product_shop .result{
     padding: 20px 0;
   }
@@ -6813,6 +7074,113 @@ img {
     font-size: 25px;
     margin: 0 0 20px;
     padding: 0 0 10px;
+  }
+
+  .tittleProduct{
+    font-size: 14px;
+  }
+
+  #box_coupon{
+    padding: 15px 20px;
+    margin: 90px 0 50px;
+  }
+
+  #box_coupon b{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  #box_insourance{
+    margin: 0 0 50px;
+  }
+
+  #box_billing_detail{
+    margin: 0 0 50px;
+  }
+
+  .box_input{
+    margin: 0 0 20px;
+  }
+
+  .box_input label{
+    font-size: 16px;
+    margin: 0 0 10px;
+  }
+
+  .box_input input{
+    font-size: 16px;
+    padding: 0 0 12px;
+  }
+
+  .box_input input::-webkit-input-placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .box_input input:-moz-placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .box_input input::-moz-placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .box_input input:-ms-input-placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .box_input input::placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .box_input textarea{
+    font-size: 16px;
+    padding: 0 0 12px;
+  }
+
+  .box_input textarea::-webkit-input-placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .box_input textarea:-moz-placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .box_input textarea::-moz-placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .box_input textarea:-ms-input-placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .box_input textarea::placeholder{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  #box_difderent_address{
+    margin: 0 0 50px;
+  }
+
+  #box_order_notes{
+    margin: 0 0 50px;
+  }
+
+  #box_order{
+    margin: 0 0 50px;
+  }
+
+  #box_order .result{
+    padding: 20px 0;
   }
 
   #box_order b{
