@@ -184,167 +184,101 @@
       <!-- BEGIN SHOPPING CART -->
       <section id="section_shopping_cart" class="margin">
         <div class="row">
-          <div id="list_product_shop">
-            <!-- BEGIN LIST PRODUCT -->
-            <div class="list_result">
-              <!-- BEGIN TOP -->
-              <div class="top">
-                <div class="box">&nbsp;</div>
-                <div class="box">&nbsp;</div>
-                <div class="box">
-                  <div class="tittle">Product</div>
-                </div>
-                <div class="box">
-                  <div class="tittle">Price</div>
-                </div>
-                <div class="box">
-                  <div class="tittle">Quantity</div>
-                </div>
-                <div class="box">
-                  <div class="tittle">Total</div>
-                </div>
-              </div>
-              <!-- END TOP -->
-              <!-- BEGIN PRODUCT -->
-              <div class="result">
-                <div class="box">
-                  <div class="vertical">
-                    <button class="btn_tash" type="button">
-                      <img src="img/icon/btn_tash.svg" alt="Tash">
-                    </button>
-                  </div>
-                </div>
-                <div class="box">
-                  <div class="product">
-                    <img src="img/products/cart/product_cart_01@2x.jpg" alt="Product name">
-                  </div>
-                </div>
-                <div class="box">
-                  <div class="name">Kilkerran 12 Year Old 46%</div>
-                </div>
-                <div class="box">
-                  <div class="price">£32.95</div>
-                </div>
-                <div class="box">
-                  <div class="vertical">
-                    <input placeholder="0" type="text" name="" value="">
-                  </div>
-                </div>
-                <div class="box">
-                  <div class="total">£32.95</div>
-                </div>
-              </div>
-              <!-- END PRODUCT -->
-              <!-- BEGIN PRODUCT -->
-              <div class="result">
-                <div class="box">
-                  <div class="vertical">
-                    <button class="btn_tash" type="button">
-                      <img src="img/icon/btn_tash.svg" alt="Tash">
-                    </button>
-                  </div>
-                </div>
-                <div class="box">
-                  <div class="product">
-                    <img src="img/products/cart/product_cart_02@2x.jpg" alt="Product name">
-                  </div>
-                </div>
-                <div class="box">
-                  <div class="name">Kilkerran 12 Year Old 46%</div>
-                </div>
-                <div class="box">
-                  <div class="price">£32.95</div>
-                </div>
-                <div class="box">
-                  <div class="vertical">
-                    <input placeholder="0" type="text" name="" value="">
-                  </div>
-                </div>
-                <div class="box">
-                  <div class="total">£32.95</div>
-                </div>
-              </div>
-              <!-- END PRODUCT -->
-              <!-- BEGIN PRODUCT -->
-              <div class="result">
-                <div class="box">
-                  <div class="vertical">
-                    <button class="btn_tash" type="button">
-                      <img src="img/icon/btn_tash.svg" alt="Tash">
-                    </button>
-                  </div>
-                </div>
-                <div class="box">
-                  <div class="product">
-                    <img src="img/products/cart/product_cart_03@2x.jpg" alt="Product name">
-                  </div>
-                </div>
-                <div class="box">
-                  <div class="name">Kilkerran 12 Year Old 46%</div>
-                </div>
-                <div class="box">
-                  <div class="price">£32.95</div>
-                </div>
-                <div class="box">
-                  <div class="vertical">
-                    <input placeholder="0" type="text" name="" value="">
-                  </div>
-                </div>
-                <div class="box">
-                  <div class="total">£32.95</div>
-                </div>
-              </div>
-              <!-- END PRODUCT -->
-              <!-- BEGIN BOX UPDATE -->
-              <div class="box_update">
-                <div class="box">
-                  <input placeholder="Type here" type="text" name="" value="">
-                </div>
-                <div class="box">
-                  <button class="btn_small_gray" type="button">Apply Coupon</button>
-                </div>
-                <div class="box">
-                  <button class="btn_small" type="button" name="button">Update Basket</button>
-                </div>
-              </div>
-              <!-- END BOX UPDATE -->
+          <div id="box_checkout">
+            <!-- BEGIN TOP INFO -->
+            <h4 class="margin">Checkout</h4>
+            <p>VAT will be removed for deliveries outside the EU when you enter your delivery address at checkout</p>
+            <!-- END TOP INFO -->
+            <!-- BEGIN COUPON -->
+            <div id="box_coupon">
+              <b>Have a coupon? Click here to enter your code</b>
             </div>
-            <!-- BEGIN LIST PRODUCT -->
-            <!-- BEGIN BASKET TOTALS -->
-            <div id="box_basket_total">
-              <h4>Basket Totals</h4>
-              <div class="box_result">
-                <div class="result">
-                  <div class="box">
-                    <div class="name">Subtotal</div>
-                  </div>
-                  <div class="box">
-                    <div class="total">£98.85</div>
-                  </div>
-                </div>
-                <div class="result">
-                  <div class="box">
-                    <div class="name">Shipping</div>
-                  </div>
-                  <div class="box">
-                    <div class="total">Shipping: £34.95</div>
-                    <a href="#">
-                      <p>Calculate Shipping</p>
-                    </a>
+            <!-- END COUPON -->
+            <!-- BEGIN INSOURANCE -->
+            <div id="box_insourance">
+              <input type="checkbox">
+              <p>Shipping Insurance (Recommended) (£0.99)</p>
+            </div>
+            <!-- END INSOURANCE -->
+            <!--  BEGIN BILLING DETAIL -->
+            <div id="box_billing_detail">
+              <h4>Billing Details</h4>
+              <div class="full_box">
+                <div class="box">
+                  <div class="box_input">
+                    <label>First Name *</label>
+                    <input placeholder="Type your name">
                   </div>
                 </div>
-                <div class="result">
-                  <div class="box">
-                    <div class="name">Total</div>
-                  </div>
-                  <div class="box">
-                    <div class="total">£133,80</div>
+                <div class="box">
+                  <div class="box_input">
+                    <label>Last Name *</label>
+                    <input placeholder="Type your last name">
                   </div>
                 </div>
-                <button class="btn_small" type="button">Proceed to Checkout</button>
+                <div class="box">
+                  <div class="box_input">
+                    <label>Email Address *</label>
+                    <input placeholder="Type your address">
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="box_input">
+                    <label>Phone *</label>
+                    <input placeholder="Type your phone">
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="box_input">
+                    <label>Country *</label>
+                    <div class="select">
+                      Select country
+                      <img src="img/icon/arrow_dropdown_2.svg">
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="box">
+                    <div class="box_input">
+                      <label>Address *</label>
+                      <input placeholder="Street address">
+                    </div>
+                  </div>
+                  <div class="box">
+                    <div class="box_input">
+                      <label>&nbsp;</label>
+                      <input placeholder="Apartment (optionanl)">
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="box_input">
+                    <label>Town / City *</label>
+                    <input placeholder="Type your city">
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="box">
+                    <div class="box_input">
+                      <label>State / County *</label>
+                      <div class="select">
+                        Select state
+                        <img src="img/icon/arrow_dropdown_2.svg">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box">
+                    <div class="box_input">
+                      <label>Postcode / ZIP *</label>
+                      <input placeholder="Type zip">
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <!-- END BASKET TOTALS -->
+            <!--  END BILLING DETAIL -->
+
+
           </div>
           <div id="sidebar">
             <!-- BEGIN PURCHASE HISTORY -->
