@@ -48,6 +48,14 @@ article {
   &.big {
     lost-column: 1/1;
   }
+  &.single {
+    lost-column: 1/1;
+    .img {
+      float: left;
+      width: 100%;
+      margin: 35px 0;
+    }
+  }
   a {
     display: block;
     float: left;
@@ -59,8 +67,6 @@ article {
         .img {
           width: 100%;
           margin: 0 0 -40px;
-        }
-        .box_info {
         }
       }
     }
@@ -76,19 +82,19 @@ article {
         margin: 0 0 -20px;
       }
     }
-    .box_info {
-      float: left;
-      background: var(--blanco);
-      @media (--mobile) {
-        width: calc(100% - 20px);
-        padding: 10px;
-        margin: 0;
-      }
-      @media (--tabletport) {
-        width: calc(100% - 40px - 20px);
-        padding: 20px;
-        margin: 0 0 0 20px;
-      }
+  }
+  .box_info {
+    float: left;
+    background: var(--blanco);
+    @media (--mobile) {
+      width: calc(100% - 20px);
+      padding: 10px;
+      margin: 0;
+    }
+    @media (--tabletport) {
+      width: calc(100% - 40px - 20px);
+      padding: 20px;
+      margin: 0 0 0 20px;
     }
   }
 }

@@ -2450,6 +2450,35 @@ article.big:nth-child(1n + 1){
   clear: both;
 }
 
+article.single {
+  width: calc(99.9% * 1/1 - (30px - 30px * 1/1));
+}
+
+article.single:nth-child(1n){
+  float: left;
+  margin-right: 30px;
+  clear: none;
+}
+
+article.single:last-child{
+  margin-right: 0;
+}
+
+article.single:nth-child(1n){
+  margin-right: 0;
+  float: right;
+}
+
+article.single:nth-child(1n + 1){
+  clear: both;
+}
+
+article.single .img {
+  float: left;
+  width: 100%;
+  margin: 35px 0;
+}
+
 article a {
   display: block;
   float: left;
@@ -2468,7 +2497,7 @@ article a .img {
           transition: all 0.3s ease-in-out;
 }
 
-article a .box_info {
+article .box_info {
   float: left;
   background: #ffffff;
 }
@@ -4318,7 +4347,7 @@ article a .box_info {
     margin: 0;
   }
 
-  article a .box_info{
+  article .box_info{
     width: -webkit-calc(100% - 20px);
     width: -moz-calc(100% - 20px);
     width: calc(100% - 20px);
@@ -5607,7 +5636,7 @@ article a .box_info {
     margin: 0 0 -20px;
   }
 
-  article a .box_info{
+  article .box_info{
     width: -webkit-calc(100% - 40px - 20px);
     width: -moz-calc(100% - 40px - 20px);
     width: calc(100% - 40px - 20px);
@@ -6935,8 +6964,6 @@ article a .box_info {
     width: 100%;
     margin: 0 0 -40px;
   }
-
-  article a:hover .box_info{}
 }
 
 @media (min-width: 1200px){

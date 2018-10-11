@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cda8546b-8c7a-47db-a3ca-66984a65e619" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/dist/blog_single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blog.pcss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog.pcss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/general.pcss" beforeDir="false" afterPath="$PROJECT_DIR$/src/general.pcss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="blog.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/blog.html">
+      <file leaf-file-name="blog_single.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/blog_single.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="784">
-              <caret line="445" column="60" selection-start-line="445" selection-start-column="60" selection-end-line="445" selection-end-column="60" />
+            <state relative-caret-position="124">
+              <caret line="187" column="34" selection-start-line="187" selection-start-column="28" selection-end-line="187" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -48,17 +49,8 @@
       <file leaf-file-name="blog.pcss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/blog.pcss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shopping_cart.pcss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/shopping_cart.pcss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="358" column="23" lean-forward="true" selection-start-line="358" selection-start-column="23" selection-end-line="358" selection-end-column="23" />
+            <state relative-caret-position="340">
+              <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -66,8 +58,8 @@
       <file leaf-file-name="variables.pcss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/variables.pcss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="119" column="2" selection-start-line="119" selection-start-column="2" selection-end-line="130" selection-end-column="3" />
+            <state relative-caret-position="789">
+              <caret line="169" column="1" selection-start-line="169" selection-start-column="1" selection-end-line="169" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -76,9 +68,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>h5</find>
-      <find>.margin</find>
-      <find>margin: 136px 0 0</find>
       <find>margin: 136px 0 0;</find>
       <find>list_product_shop</find>
       <find>box_checkout</find>
@@ -106,6 +95,9 @@
       <find>articl</find>
       <find>h2</find>
       <find>h3</find>
+      <find>article</find>
+      <find>WhiteBoxArticle</find>
+      <find>single</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -116,7 +108,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/home.pcss" />
         <option value="$PROJECT_DIR$/dist/shopping_cart.html" />
-        <option value="$PROJECT_DIR$/src/variables.pcss" />
         <option value="$PROJECT_DIR$/dist/js/app.js" />
         <option value="$PROJECT_DIR$/src/checkout.pcss" />
         <option value="$PROJECT_DIR$/dist/checkout.html" />
@@ -124,6 +115,8 @@
         <option value="$PROJECT_DIR$/dist/blog.html" />
         <option value="$PROJECT_DIR$/src/shopping_cart.pcss" />
         <option value="$PROJECT_DIR$/src/general.pcss" />
+        <option value="$PROJECT_DIR$/src/variables.pcss" />
+        <option value="$PROJECT_DIR$/dist/blog_single.html" />
         <option value="$PROJECT_DIR$/src/blog.pcss" />
       </list>
     </option>
@@ -198,8 +191,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/dist" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -227,12 +220,12 @@
       <workItem from="1539173391723" duration="53000" />
       <workItem from="1539173448313" duration="11735000" />
       <workItem from="1539197990604" duration="1155000" />
-      <workItem from="1539257758407" duration="3515000" />
+      <workItem from="1539257758407" duration="4888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16458000" />
+    <option name="totallyTimeSpent" value="17831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="0" />
@@ -242,12 +235,12 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32937366" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -404,13 +397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/variables.pcss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="119" column="2" selection-start-line="119" selection-start-column="2" selection-end-line="130" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/checkout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -432,10 +418,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/general.pcss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="440" column="18" selection-start-line="440" selection-start-column="18" selection-end-line="440" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dist/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="445" column="60" selection-start-line="445" selection-start-column="60" selection-end-line="445" selection-end-column="60" />
+        <state relative-caret-position="94">
+          <caret line="399" column="17" selection-start-line="399" selection-start-column="17" selection-end-line="399" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -446,17 +439,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/general.pcss">
+    <entry file="file://$PROJECT_DIR$/src/variables.pcss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="440" column="18" selection-start-line="440" selection-start-column="18" selection-end-line="440" selection-end-column="18" />
+        <state relative-caret-position="789">
+          <caret line="169" column="1" selection-start-line="169" selection-start-column="1" selection-end-line="169" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/blog_single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="187" column="34" selection-start-line="187" selection-start-column="28" selection-end-line="187" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/blog.pcss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="340">
+          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
         </state>
       </provider>
     </entry>
