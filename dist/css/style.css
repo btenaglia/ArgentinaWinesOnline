@@ -210,6 +210,19 @@ h2.small {
   line-height: 32px;
 }
 
+h3 {
+  float: left;
+  width: 100%;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 23px;
+  color: #CE922E;
+  letter-spacing: 0;
+  line-height: 37px;
+  margin: 0;
+  padding: 0;
+}
+
 h4 {
   float: left;
   width: 100%;
@@ -1993,6 +2006,39 @@ img {
 #sidebar .product_single_element {
   margin-left: 0;
   margin-bottom: 20px;
+}
+
+#sidebar article {
+  margin-bottom: 20px;
+  width: calc(99.9% * 1/1 - (30px - 30px * 1/1));
+}
+
+#sidebar article:nth-child(1n){
+  float: left;
+  margin-right: 30px;
+  clear: none;
+}
+
+#sidebar article:last-child{
+  margin-right: 0;
+}
+
+#sidebar article:nth-child(1n){
+  margin-right: 0;
+  float: right;
+}
+
+#sidebar article:nth-child(1n + 1){
+  clear: both;
+}
+
+#sidebar article .img {
+  width: 100%;
+  margin: 0 0 10px;
+}
+
+#sidebar .btn_small_gray {
+  width: 100%;
 }
 
 .tittleProduct {
