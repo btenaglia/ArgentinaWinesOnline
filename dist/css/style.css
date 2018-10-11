@@ -197,17 +197,9 @@ h1 {
 h2 {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
-  font-size: 42px;
-  line-height: 42px;
   color: #CE922E;
   letter-spacing: 0;
-  margin: 0 0 15px;
   padding: 0;
-}
-
-h2.small {
-  font-size: 32px;
-  line-height: 32px;
 }
 
 h3 {
@@ -215,10 +207,8 @@ h3 {
   width: 100%;
   font-family: 'Playfair Display', serif;
   font-weight: 400;
-  font-size: 23px;
   color: #CE922E;
   letter-spacing: 0;
-  line-height: 37px;
   margin: 0;
   padding: 0;
 }
@@ -2699,6 +2689,22 @@ article a .box_info {
     line-height: 43px;
   }
 
+  h2{
+    font-size: 42px;
+    line-height: 42px;
+    margin: 0 0 15px;
+  }
+
+  h2.small{
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  h3{
+    font-size: 23px;
+    line-height: 33px;
+  }
+
   h4{
     font-size: 24px;
     padding: 0 0 15px;
@@ -4414,6 +4420,22 @@ article a .box_info {
     line-height: 45px;
   }
 
+  h2{
+    font-size: 42px;
+    line-height: 42px;
+    margin: 0 0 15px;
+  }
+
+  h2.small{
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  h3{
+    font-size: 23px;
+    line-height: 33px;
+  }
+
   h4{
     font-size: 25px;
     padding: 0 0 20px;
@@ -5626,6 +5648,22 @@ article a .box_info {
     filter: grayscale();
   }
 
+  h2{
+    font-size: 38px;
+    line-height: 38px;
+    margin: 0 0 13px;
+  }
+
+  h2.small{
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  h3{
+    font-size: 20px;
+    line-height: 30px;
+  }
+
   h4{
     font-size: 24px;
     padding: 0 0 18px;
@@ -6835,6 +6873,22 @@ article a .box_info {
   h1{
     font-size: 52px;
     line-height: 52px;
+  }
+
+  h2{
+    font-size: 42px;
+    line-height: 42px;
+    margin: 0 0 15px;
+  }
+
+  h2.small{
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  h3{
+    font-size: 23px;
+    line-height: 33px;
   }
 
   h4{

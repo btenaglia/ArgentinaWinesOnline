@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cda8546b-8c7a-47db-a3ca-66984a65e619" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/dist/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/general.pcss" beforeDir="false" afterPath="$PROJECT_DIR$/src/general.pcss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shopping_cart.pcss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shopping_cart.pcss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="blog.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="blog.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/blog.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="784">
@@ -37,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="general.pcss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="general.pcss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/general.pcss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="670">
-              <caret line="409" column="13" selection-start-line="409" selection-start-column="13" selection-end-line="409" selection-end-column="13" />
+            <state relative-caret-position="625">
+              <caret line="448" column="17" selection-start-line="448" selection-start-column="17" selection-end-line="448" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -123,9 +121,9 @@
         <option value="$PROJECT_DIR$/dist/checkout.html" />
         <option value="$PROJECT_DIR$/src/style.css" />
         <option value="$PROJECT_DIR$/src/blog.pcss" />
-        <option value="$PROJECT_DIR$/src/general.pcss" />
         <option value="$PROJECT_DIR$/src/shopping_cart.pcss" />
         <option value="$PROJECT_DIR$/dist/blog.html" />
+        <option value="$PROJECT_DIR$/src/general.pcss" />
       </list>
     </option>
   </component>
@@ -228,12 +226,12 @@
       <workItem from="1539173391723" duration="53000" />
       <workItem from="1539173448313" duration="11735000" />
       <workItem from="1539197990604" duration="1155000" />
-      <workItem from="1539257758407" duration="2699000" />
+      <workItem from="1539257758407" duration="2905000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15642000" />
+    <option name="totallyTimeSpent" value="15848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="0" />
@@ -440,13 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/general.pcss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="409" column="13" selection-start-line="409" selection-start-column="13" selection-end-line="409" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/shopping_cart.pcss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="489">
@@ -458,6 +449,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="784">
           <caret line="445" column="60" selection-start-line="445" selection-start-column="60" selection-end-line="445" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/general.pcss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="448" column="17" selection-start-line="448" selection-start-column="17" selection-end-line="448" selection-end-column="17" />
         </state>
       </provider>
     </entry>

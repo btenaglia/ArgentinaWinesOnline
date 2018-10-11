@@ -386,15 +386,46 @@ h1 {
 h2 {
   font-family: var(--font2);
   font-weight: var(--bold);
-  font-size: 42px;
-  line-height: 42px;
   color: var(--dorado);
   letter-spacing: 0;
-  margin: 0 0 15px;
   padding: 0;
+  @media (--mobile) {
+    font-size: 42px;
+    line-height: 42px;
+    margin: 0 0 15px;
+  }
+  @media (--tabletport) {
+    font-size: 42px;
+    line-height: 42px;
+    margin: 0 0 15px;
+  }
+  @media (--tabletland) {
+    font-size: 38px;
+    line-height: 38px;
+    margin: 0 0 13px;
+  }
+  @media (--desktop) {
+    font-size: 42px;
+    line-height: 42px;
+    margin: 0 0 15px;
+  }
   &.small {
-    font-size: 32px;
-    line-height: 32px;
+    @media (--mobile) {
+      font-size: 32px;
+      line-height: 32px;
+    }
+    @media (--tabletport) {
+      font-size: 32px;
+      line-height: 32px;
+    }
+    @media (--tabletland) {
+      font-size: 25px;
+      line-height: 25px;
+    }
+    @media (--desktop) {
+      font-size: 32px;
+      line-height: 32px;
+    }
   }
 }
 h3 {
@@ -402,12 +433,26 @@ h3 {
   width: 100%;
   font-family: var(--font2);
   font-weight: var(--regular);
-  font-size: 23px;
   color: var(--dorado);
   letter-spacing: 0;
-  line-height: 37px;
   margin: 0;
   padding: 0;
+  @media (--mobile) {
+    font-size: 23px;
+    line-height: 33px;
+  }
+  @media (--tabletport) {
+    font-size: 23px;
+    line-height: 33px;
+  }
+  @media (--tabletland) {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  @media (--desktop) {
+    font-size: 23px;
+    line-height: 33px;
+  }
 }
 h4 {
   float: left;
