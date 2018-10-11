@@ -2473,7 +2473,7 @@ article.single:nth-child(1n + 1){
   clear: both;
 }
 
-article.single .img {
+article.single .imgPost {
   float: left;
   width: 100%;
   margin: 35px 0;
@@ -2489,7 +2489,7 @@ article a {
           transition: all 0.3s ease-in-out;
 }
 
-article a .img {
+article .img {
   float: left;
   -webkit-transition: all 0.3s ease-in-out;
      -moz-transition: all 0.3s ease-in-out;
@@ -4342,7 +4342,7 @@ article .box_info {
     clear: both;
   }
 
-  article a .img{
+  article .img{
     width: 100%;
     margin: 0;
   }
@@ -5629,7 +5629,7 @@ article .box_info {
     clear: both;
   }
 
-  article a .img{
+  article .img{
     width: -webkit-calc(100% - 20px);
     width: -moz-calc(100% - 20px);
     width: calc(100% - 20px);

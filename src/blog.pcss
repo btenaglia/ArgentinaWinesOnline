@@ -50,7 +50,7 @@ article {
   }
   &.single {
     lost-column: 1/1;
-    .img {
+    .imgPost {
       float: left;
       width: 100%;
       margin: 35px 0;
@@ -70,17 +70,17 @@ article {
         }
       }
     }
-    .img {
-      float: left;
-      transition: var(--animacion);
-      @media (--mobile) {
-        width: 100%;
-        margin: 0;
-      }
-      @media (--tabletport) {
-        width: calc(100% - 20px);
-        margin: 0 0 -20px;
-      }
+  }
+  .img {
+    float: left;
+    transition: var(--animacion);
+    @media (--mobile) {
+      width: 100%;
+      margin: 0;
+    }
+    @media (--tabletport) {
+      width: calc(100% - 20px);
+      margin: 0 0 -20px;
     }
   }
   .box_info {
