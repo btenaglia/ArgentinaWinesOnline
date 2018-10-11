@@ -3,7 +3,7 @@
   float: left;
   width: 100vw;
   @media (--mobile) {
-    padding: 80px 0;
+    padding: 50px 0;
   }
   @media (--tabletport) {
     padding: 60px 0;
@@ -24,17 +24,23 @@
   }
   button {
     float: none;
-    width: 370px;
     margin: auto;
+    @media (--mobile) {
+      width: 100%;
+    }
+    @media (--tabletport) {
+      width: 370px;
+    }
   }
 }
 article {
-  lost-column: 1/2;
   @media (--mobile) {
     margin-bottom: 30px;
+    lost-column: 1/1;
   }
   @media (--tabletport) {
     margin-bottom: 20px;
+    lost-column: 1/2;
   }
   @media (--tabletland) {
     margin-bottom: 30px;
@@ -60,16 +66,29 @@ article {
     }
     .img {
       float: left;
-      width: calc(100% - 20px);
-      margin: 0 0 -20px;
       transition: var(--animacion);
+      @media (--mobile) {
+        width: 100%;
+        margin: 0;
+      }
+      @media (--tabletport) {
+        width: calc(100% - 20px);
+        margin: 0 0 -20px;
+      }
     }
     .box_info {
       float: left;
-      width: calc(100% - 40px - 20px);
-      padding: 20px;
-      margin: 0 0 0 20px;
       background: var(--blanco);
+      @media (--mobile) {
+        width: calc(100% - 20px);
+        padding: 10px;
+        margin: 0;
+      }
+      @media (--tabletport) {
+        width: calc(100% - 40px - 20px);
+        padding: 20px;
+        margin: 0 0 0 20px;
+      }
     }
   }
 }

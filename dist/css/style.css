@@ -2424,31 +2424,7 @@ img {
 
 #list_post button {
   float: none;
-  width: 370px;
   margin: auto;
-}
-
-article {
-  width: calc(99.9% * 1/2 - (30px - 30px * 1/2));
-}
-
-article:nth-child(1n){
-  float: left;
-  margin-right: 30px;
-  clear: none;
-}
-
-article:last-child{
-  margin-right: 0;
-}
-
-article:nth-child(2n){
-  margin-right: 0;
-  float: right;
-}
-
-article:nth-child(2n + 1){
-  clear: both;
 }
 
 article.big {
@@ -2486,10 +2462,6 @@ article a {
 
 article a .img {
   float: left;
-  width: -webkit-calc(100% - 20px);
-  width: -moz-calc(100% - 20px);
-  width: calc(100% - 20px);
-  margin: 0 0 -20px;
   -webkit-transition: all 0.3s ease-in-out;
      -moz-transition: all 0.3s ease-in-out;
        -o-transition: all 0.3s ease-in-out;
@@ -2498,11 +2470,6 @@ article a .img {
 
 article a .box_info {
   float: left;
-  width: -webkit-calc(100% - 40px - 20px);
-  width: -moz-calc(100% - 40px - 20px);
-  width: calc(100% - 40px - 20px);
-  padding: 20px;
-  margin: 0 0 0 20px;
   background: #ffffff;
 }
 
@@ -2668,19 +2635,19 @@ article a .box_info {
   }
 
   h2{
-    font-size: 42px;
-    line-height: 42px;
-    margin: 0 0 15px;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0 0 10px;
   }
 
   h2.small{
-    font-size: 32px;
-    line-height: 32px;
+    font-size: 30px;
+    line-height: 30px;
   }
 
   h3{
-    font-size: 23px;
-    line-height: 33px;
+    font-size: 18px;
+    line-height: 28px;
   }
 
   h4{
@@ -4288,7 +4255,7 @@ article a .box_info {
   }
 
   #section_blog{
-    padding: 80px 0;
+    padding: 50px 0;
   }
 
   #section_blog.margin{
@@ -4318,8 +4285,45 @@ article a .box_info {
     clear: both;
   }
 
+  #list_post button{
+    width: 100%;
+  }
+
   article{
     margin-bottom: 30px;
+    width: calc(99.9% * 1/1 - (30px - 30px * 1/1));
+  }
+
+  article:nth-child(1n){
+    float: left;
+    margin-right: 30px;
+    clear: none;
+  }
+
+  article:last-child{
+    margin-right: 0;
+  }
+
+  article:nth-child(1n){
+    margin-right: 0;
+    float: right;
+  }
+
+  article:nth-child(1n + 1){
+    clear: both;
+  }
+
+  article a .img{
+    width: 100%;
+    margin: 0;
+  }
+
+  article a .box_info{
+    width: -webkit-calc(100% - 20px);
+    width: -moz-calc(100% - 20px);
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 0;
   }
 }
 
@@ -4432,7 +4436,6 @@ article a .box_info {
   h2{
     font-size: 35px;
     line-height: 35px;
-    margin: 0 0 10px;
   }
 
   h2.small{
@@ -4442,7 +4445,7 @@ article a .box_info {
 
   h3{
     font-size: 19px;
-    line-height: 19px;
+    line-height: 29px;
   }
 
   h4{
@@ -5569,8 +5572,47 @@ article a .box_info {
     margin: 249px 0 0;
   }
 
+  #list_post button{
+    width: 370px;
+  }
+
   article{
     margin-bottom: 20px;
+    width: calc(99.9% * 1/2 - (30px - 30px * 1/2));
+  }
+
+  article:nth-child(1n){
+    float: left;
+    margin-right: 30px;
+    clear: none;
+  }
+
+  article:last-child{
+    margin-right: 0;
+  }
+
+  article:nth-child(2n){
+    margin-right: 0;
+    float: right;
+  }
+
+  article:nth-child(2n + 1){
+    clear: both;
+  }
+
+  article a .img{
+    width: -webkit-calc(100% - 20px);
+    width: -moz-calc(100% - 20px);
+    width: calc(100% - 20px);
+    margin: 0 0 -20px;
+  }
+
+  article a .box_info{
+    width: -webkit-calc(100% - 40px - 20px);
+    width: -moz-calc(100% - 40px - 20px);
+    width: calc(100% - 40px - 20px);
+    padding: 20px;
+    margin: 0 0 0 20px;
   }
 }
 
