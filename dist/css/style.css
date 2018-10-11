@@ -2000,26 +2000,6 @@ img {
 
 #sidebar article {
   margin-bottom: 20px;
-  width: calc(99.9% * 1/1 - (30px - 30px * 1/1));
-}
-
-#sidebar article:nth-child(1n){
-  float: left;
-  margin-right: 30px;
-  clear: none;
-}
-
-#sidebar article:last-child{
-  margin-right: 0;
-}
-
-#sidebar article:nth-child(1n){
-  margin-right: 0;
-  float: right;
-}
-
-#sidebar article:nth-child(1n + 1){
-  clear: both;
 }
 
 #sidebar article .img {
@@ -2440,7 +2420,6 @@ img {
 #section_blog {
   float: left;
   width: 100vw;
-  padding: 80px 0;
 }
 
 #list_post button {
@@ -2450,7 +2429,6 @@ img {
 }
 
 article {
-  margin-bottom: 30px;
   width: calc(99.9% * 1/2 - (30px - 30px * 1/2));
 }
 
@@ -4102,6 +4080,29 @@ article a .box_info {
     clear: both;
   }
 
+  #sidebar article{
+    width: calc(99.9% * 1/1 - (30px - 30px * 1/1));
+  }
+
+  #sidebar article:nth-child(1n){
+    float: left;
+    margin-right: 30px;
+    clear: none;
+  }
+
+  #sidebar article:last-child{
+    margin-right: 0;
+  }
+
+  #sidebar article:nth-child(1n){
+    margin-right: 0;
+    float: right;
+  }
+
+  #sidebar article:nth-child(1n + 1){
+    clear: both;
+  }
+
   .tittleProduct{
     font-size: 12px;
   }
@@ -4286,6 +4287,10 @@ article a .box_info {
     line-height: 24px;
   }
 
+  #section_blog{
+    padding: 80px 0;
+  }
+
   #section_blog.margin{
     margin: 136px 0 0;
   }
@@ -4311,6 +4316,10 @@ article a .box_info {
 
   #list_post:nth-child(1n + 1){
     clear: both;
+  }
+
+  article{
+    margin-bottom: 30px;
   }
 }
 
@@ -4421,19 +4430,19 @@ article a .box_info {
   }
 
   h2{
-    font-size: 42px;
-    line-height: 42px;
-    margin: 0 0 15px;
+    font-size: 35px;
+    line-height: 35px;
+    margin: 0 0 10px;
   }
 
   h2.small{
-    font-size: 32px;
-    line-height: 32px;
+    font-size: 25px;
+    line-height: 25px;
   }
 
   h3{
-    font-size: 23px;
-    line-height: 33px;
+    font-size: 19px;
+    line-height: 19px;
   }
 
   h4{
@@ -5444,6 +5453,29 @@ article a .box_info {
     clear: both;
   }
 
+  #sidebar article{
+    width: calc(99.9% * 1/2 - (30px - 30px * 1/2));
+  }
+
+  #sidebar article:nth-child(1n){
+    float: left;
+    margin-right: 30px;
+    clear: none;
+  }
+
+  #sidebar article:last-child{
+    margin-right: 0;
+  }
+
+  #sidebar article:nth-child(2n){
+    margin-right: 0;
+    float: right;
+  }
+
+  #sidebar article:nth-child(2n + 1){
+    clear: both;
+  }
+
   #box_billing_detail .box{
     width: calc(99.9% * 1/2 - (30px - 30px * 1/2));
   }
@@ -5529,8 +5561,16 @@ article a .box_info {
     top: 44px;
   }
 
+  #section_blog{
+    padding: 60px 0;
+  }
+
   #section_blog.margin{
     margin: 249px 0 0;
+  }
+
+  article{
+    margin-bottom: 20px;
   }
 }
 
@@ -5652,11 +5692,6 @@ article a .box_info {
     font-size: 38px;
     line-height: 38px;
     margin: 0 0 13px;
-  }
-
-  h2.small{
-    font-size: 25px;
-    line-height: 25px;
   }
 
   h3{
@@ -6654,6 +6689,29 @@ article a .box_info {
     filter: grayscale();
   }
 
+  #sidebar article{
+    width: calc(99.9% * 1/1 - (30px - 30px * 1/1));
+  }
+
+  #sidebar article:nth-child(1n){
+    float: left;
+    margin-right: 30px;
+    clear: none;
+  }
+
+  #sidebar article:last-child{
+    margin-right: 0;
+  }
+
+  #sidebar article:nth-child(1n){
+    margin-right: 0;
+    float: right;
+  }
+
+  #sidebar article:nth-child(1n + 1){
+    clear: both;
+  }
+
   .tittleProduct{
     font-size: 13px;
   }
@@ -6791,6 +6849,10 @@ article a .box_info {
     line-height: 25px;
   }
 
+  #section_blog{
+    padding: 80px 0;
+  }
+
   #section_blog.margin{
     margin: 274px 0 0;
   }
@@ -6816,6 +6878,10 @@ article a .box_info {
 
   #list_post:nth-child(12n + 1){
     clear: both;
+  }
+
+  article{
+    margin-bottom: 30px;
   }
 
   article a:hover{

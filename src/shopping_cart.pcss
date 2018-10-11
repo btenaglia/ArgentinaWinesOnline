@@ -352,7 +352,15 @@
   }
   article {
     margin-bottom: 20px;
-    lost-column: 1/1;
+    @media (--mobile) {
+      lost-column: 1/1;
+    }
+    @media (--tabletport) {
+      lost-column: 1/2;
+    }
+    @media (--tabletland) {
+      lost-column: 1/1;
+    }
     .img {
       width: 100%;
       margin: 0 0 10px;

@@ -2,7 +2,15 @@
 #section_blog {
   float: left;
   width: 100vw;
-  padding: 80px 0;
+  @media (--mobile) {
+    padding: 80px 0;
+  }
+  @media (--tabletport) {
+    padding: 60px 0;
+  }
+  @media (--tabletland) {
+    padding: 80px 0;
+  }
   &.margin {
     @mixin MarginTopSection {};
   }
@@ -21,8 +29,16 @@
   }
 }
 article {
-  margin-bottom: 30px;
   lost-column: 1/2;
+  @media (--mobile) {
+    margin-bottom: 30px;
+  }
+  @media (--tabletport) {
+    margin-bottom: 20px;
+  }
+  @media (--tabletland) {
+    margin-bottom: 30px;
+  }
   &.big {
     lost-column: 1/1;
   }
