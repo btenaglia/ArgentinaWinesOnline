@@ -30,18 +30,31 @@ article {
     display: block;
     float: left;
     width: 100%;
-  }
-  .img {
-    float: left;
-    width: calc(100% - 20px);
-    margin: 0 0 -20px;
-  }
-  .box_info {
-    float: left;
-    width: calc(100% - 40px - 20px);
-    padding: 20px;
-    margin: 0 0 0 20px;
-    background: var(--blanco);
+    transition: var(--animacion);
+    &:hover {
+      @media (--tabletland) {
+        filter: grayscale();
+        .img {
+          width: 100%;
+          margin: 0 0 -40px;
+        }
+        .box_info {
+        }
+      }
+    }
+    .img {
+      float: left;
+      width: calc(100% - 20px);
+      margin: 0 0 -20px;
+      transition: var(--animacion);
+    }
+    .box_info {
+      float: left;
+      width: calc(100% - 40px - 20px);
+      padding: 20px;
+      margin: 0 0 0 20px;
+      background: var(--blanco);
+    }
   }
 }
 /* END BLOG */

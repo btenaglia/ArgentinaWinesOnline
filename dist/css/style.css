@@ -2464,17 +2464,25 @@ article a {
   display: block;
   float: left;
   width: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+     -moz-transition: all 0.3s ease-in-out;
+       -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
 }
 
-article .img {
+article a .img {
   float: left;
   width: -webkit-calc(100% - 20px);
   width: -moz-calc(100% - 20px);
   width: calc(100% - 20px);
   margin: 0 0 -20px;
+  -webkit-transition: all 0.3s ease-in-out;
+     -moz-transition: all 0.3s ease-in-out;
+       -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
 }
 
-article .box_info {
+article a .box_info {
   float: left;
   width: -webkit-calc(100% - 40px - 20px);
   width: -moz-calc(100% - 40px - 20px);
@@ -6725,6 +6733,18 @@ article .box_info {
   #list_post:nth-child(12n + 1){
     clear: both;
   }
+
+  article a:hover{
+    -webkit-filter: grayscale();
+    filter: grayscale();
+  }
+
+  article a:hover .img{
+    width: 100%;
+    margin: 0 0 -40px;
+  }
+
+  article a:hover .box_info{}
 }
 
 @media (min-width: 1200px){
