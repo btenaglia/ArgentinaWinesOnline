@@ -47,11 +47,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="general.pcss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/general.pcss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="563" column="20" selection-start-line="563" selection-start-column="17" selection-end-line="563" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="shipping_and_insurance.pcss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/shipping_and_insurance.pcss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="217" column="17" selection-start-line="217" selection-start-column="17" selection-end-line="217" selection-end-column="17" />
+            <state relative-caret-position="218">
+              <caret line="189" column="14" lean-forward="true" selection-start-line="189" selection-start-column="14" selection-end-line="189" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -69,7 +78,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>single</find>
       <find>input</find>
       <find>focus</find>
       <find>btn_small</find>
@@ -99,6 +107,7 @@
       <find>delivery_section</find>
       <find>description_shipping</find>
       <find>box_delivery_zone</find>
+      <find>row</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -230,12 +239,12 @@
       <workItem from="1539257758407" duration="5092000" />
       <workItem from="1540814838699" duration="7737000" />
       <workItem from="1540824562758" duration="11476000" />
-      <workItem from="1540843770271" duration="1322000" />
+      <workItem from="1540843770271" duration="1519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38570000" />
+    <option name="totallyTimeSpent" value="38767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="0" />
@@ -543,13 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/general.pcss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="1356" column="16" lean-forward="true" selection-start-line="1356" selection-start-column="16" selection-end-line="1356" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/variables.pcss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3285">
@@ -568,13 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
           <caret line="189" column="14" selection-start-line="189" selection-start-column="14" selection-end-line="189" selection-end-column="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -612,10 +607,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/general.pcss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="563" column="20" selection-start-line="563" selection-start-column="17" selection-end-line="563" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/shipping_and_insurance.pcss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="217" column="17" selection-start-line="217" selection-start-column="17" selection-end-line="217" selection-end-column="17" />
+        <state relative-caret-position="218">
+          <caret line="189" column="14" lean-forward="true" selection-start-line="189" selection-start-column="14" selection-end-line="189" selection-end-column="14" />
         </state>
       </provider>
     </entry>

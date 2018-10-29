@@ -86,8 +86,8 @@
     letter-spacing: 0;
     text-align: center;
     @media (--mobile) {
-      font-size: 23px;
-      line-height: 37px;
+      font-size: 20px;
+      line-height: 34px;
     }
     @media (--tabletport) {
       font-size: 21px;
@@ -142,19 +142,17 @@
   }
   .tittle {
     float: left;
+    width: calc(100% - 10px - 10px);
+    margin: 0 10px 5px 0;
     font-family: var(--font2);
     font-weight: var(--regular);
     color: var(--grisclaro);
     letter-spacing: 0;
     @media (--mobile) {
-      width: calc(100% - 10px - 10px);
-      margin: 0 10px 5px 0;
-      font-size: 20px;
-      line-height: 30px;
+      font-size: 18px;
+      line-height: 28px;
     }
     @media (--tabletport) {
-      width: calc(100% - 10px - 10px);
-      margin: 0 10px 5px 0;
       font-size: 19px;
       line-height: 29px;
     }
@@ -166,8 +164,13 @@
   .icon {
     float: left;
     width: 10px;
-    margin: 13px 0 0;
     transition: var(--animacion);
+    @media (--mobile) {
+      margin: 11px 0 0;
+    }
+    @media (--tabletport) {
+      margin: 13px 0 0;
+    }
   }
 }
 .result_delivery {
@@ -183,11 +186,22 @@
 #box_insurance {
   float: left;
   width: 100vw;
-  padding: 0 0 80px;
+  @media (--mobile) {
+    padding: 0;
+  }
+  @media (--tabletport) {
+    padding: 0 0 80px;
+  }
   .box {
     clear: both !important;
-    margin: -30px 0 0;
-    lost-column: 1/2;
+    @media (--mobile) {
+      margin: 20px 0 0;
+      lost-column: 1/1;
+    }
+    @media (--tabletport) {
+      margin: -30px 0 0;
+      lost-column: 1/2;
+    }
     &:first-child {
       margin: 0;
     }
@@ -212,10 +226,10 @@
   }
   .pic {
     @media (--mobile) {
-      margin: -150px 0 0 calc((-100vw + 1200px) / 2);
+      margin: 0 calc((-100vw + 280px) / 2) 0 calc((-100vw + 280px) / 2);
     }
     @media (--tabletport) {
-      margin: -250px 0 0 calc((-100vw + 700px) / 2);
+      margin: -250px 0 0 calc((-100vw + 720px) / 2);
     }
     @media (--tabletland) {
       margin: -200px 0 0 calc((-100vw + 900px) / 2);
