@@ -46,9 +46,11 @@ $(document).ready(function(){
   // BEGIN POPUP LOGIN
     $('#btn_login').click(function () {
        $('#popup_login').addClass('active');
+       $('body').addClass('hidden');
     });
     $('.btn_close').click(function () {
        $(this).parent('.popup').removeClass('active');
+        $('body').removeClass('hidden');
     });
   // END POPUP LOGIN
 });

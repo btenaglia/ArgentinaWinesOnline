@@ -19,11 +19,27 @@
   .box {
     float: none !important;
     margin: auto !important;
-    lost-column: 4/12;
+    @media (--mobile) {
+      lost-column: 1/1;
+    }
+    @media (--tabletport) {
+      lost-column: 7/12;
+    }
+    @media (--tabletland) {
+      lost-column: 5/12;
+    }
+    @media (--desktop) {
+      lost-column: 4/12;
+    }
   }
   .full_box {
     .box {
-      lost-column: 1/2 !important;
+      @media (--mobile) {
+        lost-column: 1/1 !important;
+      }
+      @media (--tabletport) {
+        lost-column: 1/2 !important;
+      }
     }
   }
   h2 {
@@ -43,6 +59,7 @@
       color: var(--blanco);
       letter-spacing: 0;
       border: 0 none;
+      border-radius: 0;
       background: none;
       border-bottom: 1px solid var(--dorado);
       &::placeholder {
@@ -63,6 +80,12 @@
   .btn_small,
   .btn_small_line {
     width: 100%;
+    @media (--mobile) {
+      margin: 0 0 20px;
+    }
+    @media (--tabletport) {
+      margin: 0;
+    }
   }
 }
 .btn_close {
@@ -80,31 +103,54 @@
   }
 }
 .remember {
-  margin: 20px 0 0;
+  @media (--mobile) {
+    margin: 0;
+  }
+  @media (--tabletport) {
+    margin: 20px 0 0;
+  }
   input {
     float: left;
     margin: 7px 10px 0 0;
   }
   p {
     float: left;
-    width: calc(100% - 10px - 12px);
     font-size: 16px;
     color: var(--blanco);
     letter-spacing: 0;
+    @media (--mobile) {
+      width: calc(100% - 10px - 20px);
+    }
+    @media (--tabletport) {
+      width: calc(100% - 10px - 12px);
+    }
   }
 }
 .btn_lost {
   cursor: pointer;
   float: left;
+  width: 100%;
   font-weight: var(--light);
-  font-size: 16px;
   color: var(--crema);
   letter-spacing: 0;
   margin: 23px 0 0;
+  text-align: center;
   background: var(--none);
   border: 0 none;
   border-bottom: 1px solid var(--crema);
   transition: var(--animacion);
+  @media (--mobile) {
+    font-size: 15px;
+  }
+  @media (--tabletport) {
+    font-size: 16px;
+  }
+  @media (--tabletland) {
+    font-size: 15px;
+  }
+  @media (--desktop) {
+    font-size: 16px;
+  }
   &:hover {
     @media (--tabletland) {
       color: var(--dorado);
