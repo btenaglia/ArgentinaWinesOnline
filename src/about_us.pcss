@@ -27,8 +27,22 @@
     }
   }
   p {
-    width: calc(100% - 70px);
-    margin: 0 0 0 70px;
+    @media (--mobile) {
+      width: calc(100% - 70px);
+      margin: 0 0 0 70px;
+    }
+    @media (--tabletport) {
+      width: calc(100% - 70px);
+      margin: 0 0 0 70px;
+    }
+    @media (--tabletland) {
+      width: calc(100% - 50px);
+      margin: 0 0 0 50px;
+    }
+    @media (--desktop) {
+      width: calc(100% - 70px);
+      margin: 0 0 0 70px;
+    }
   }
 }
 #box_about_pìcs {
@@ -136,50 +150,46 @@
     width: 100%;
     font-family: var(--font3);
     font-weight: var(--medium);
-    font-size: 16px;
-    line-height: 0.8;
     color: var(--dorado);
     letter-spacxing: 0;
     text-align: center;
     padding: 15px 0;
+    @mixin TextAboutUs {};
   }
   .name_zone {
     float: left;
     width: 100%;
     font-family: var(--font3);
     font-weight: var(--medium);
-    font-size: 16px;
     color: var(--dorado);
     letter-spacing: 0;
+    @mixin TextAboutUs {};
   }
   .description_zone {
     float: left;
     width: 100%;
     font-weight: var(--regular);
-    font-size: 16px;
     color: var(--crema);
     letter-spacing: 0;
-    line-height: 21px;
+    @mixin TextAboutUs {};
   }
   .text {
     float: left;
     width: 100%;
     font-weight: var(--light);
-    font-size: 16px;
-    line-height: 20px;
     color: var(--blanco);
     letter-spacing: 0;
     text-align: center;
+    @mixin TextAboutUs {};
   }
   .price {
     float: left;
     width: 100%;
     font-weight: var(--black);
-    font-size: 16px;
-    line-height: 20px;
     color: var(--crema);
     letter-spacing: 0;
     text-align: center;
+    @mixin TextAboutUs {};
   }
   .description {
     float: left;
@@ -197,9 +207,31 @@
   width: 100vw;
   background: url("../img/banner/bg_banner_contact@2x.jpg");
   background-size: cover;
-  padding: 200px 0;
+  @media (--mobile) {
+    padding: 200px 0;
+  }
+  @media (--tabletport) {
+    padding: 200px 0;
+  }
+  @media (--tabletland) {
+    padding: 170px 0;
+  }
+  @media (--desktop) {
+    padding: 200px 0;
+  }
   .box {
-    lost-column: 5/12;
+    @media (--mobile) {
+      lost-column: 5/12;
+    }
+    @media (--tabletport) {
+      lost-column: 5/12;
+    }
+    @media (--tabletland) {
+      lost-column: 6/12;
+    }
+    @media (--desktop) {
+      lost-column: 5/12;
+    }
   }
   h2 {
     color: var(--blanco);
