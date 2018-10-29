@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cda8546b-8c7a-47db-a3ca-66984a65e619" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/about_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/about_us.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/about_us.pcss" beforeDir="false" afterPath="$PROJECT_DIR$/src/about_us.pcss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variables.pcss" beforeDir="false" afterPath="$PROJECT_DIR$/src/variables.pcss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +21,8 @@
       <file leaf-file-name="about_us.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dist/about_us.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="749">
-              <caret line="348" column="43" selection-start-line="348" selection-start-column="43" selection-end-line="348" selection-end-column="43" />
+            <state relative-caret-position="529">
+              <caret line="748" column="47" selection-start-line="748" selection-start-column="47" selection-end-line="748" selection-end-column="47" />
               <folding>
                 <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -53,8 +51,8 @@
       <file leaf-file-name="about_us.pcss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/about_us.pcss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="789">
-              <caret line="149" column="22" selection-start-line="149" selection-start-column="22" selection-end-line="149" selection-end-column="22" />
+            <state relative-caret-position="578">
+              <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -72,8 +70,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>box_difderent_address</find>
-      <find>.result</find>
       <find>box_input</find>
       <find>drop</find>
       <find>InputForm</find>
@@ -102,6 +98,8 @@
       <find>banner_general margin</find>
       <find>504B4B</find>
       <find>box_tittles</find>
+      <find>full_result_delivery</find>
+      <find>box_delivery_info</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -230,12 +228,12 @@
       <workItem from="1539197990604" duration="1155000" />
       <workItem from="1539257758407" duration="5092000" />
       <workItem from="1540814838699" duration="7737000" />
-      <workItem from="1540824562758" duration="1653000" />
+      <workItem from="1540824562758" duration="3717000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27425000" />
+    <option name="totallyTimeSpent" value="29489000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="0" />
@@ -566,15 +564,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/about_us.pcss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="789">
-          <caret line="149" column="22" selection-start-line="149" selection-start-column="22" selection-end-line="149" selection-end-column="22" />
+        <state relative-caret-position="578">
+          <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/about_us.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="749">
-          <caret line="348" column="43" selection-start-line="348" selection-start-column="43" selection-end-line="348" selection-end-column="43" />
+        <state relative-caret-position="529">
+          <caret line="748" column="47" selection-start-line="748" selection-start-column="47" selection-end-line="748" selection-end-column="47" />
           <folding>
             <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

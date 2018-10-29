@@ -65,7 +65,9 @@
   padding: 120px 0;
   background: url("../img/about_us/bg_delivery_information@2x.jpg") center center no-repeat;
   background-size: cover;
-  .full_box {
+  .box_tittle {
+    float: left;
+    width: 100%;
     .box {
       float: none !important;
       margin: auto !important;
@@ -73,10 +75,37 @@
     }
   }
 }
+.full_result_delivery {
+  float: left;
+  width: 100%;
+  margin: 0 0 70px;
+}
+.full_med_delivery {
+  lost-column: 1/2;
+  .full_table {
+    .box {
+      width: calc(100% / 3);
+    }
+  }
+}
 .full_table {
   float: left;
   width: 100%;
   border: 1px solid var(--border);
+  .box_world {
+    float: left;
+    width: 100%;
+    background: var(--dorado);
+    font-family: var(--font3);
+    font-weight: var(--medium);
+    font-size: 16px;
+    line-height: 0.8;
+    color: var(--blanco);
+    letter-spacing: 0;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 0;
+  }
   .box_tittles {
     float: left;
     width: 100%;
@@ -137,7 +166,7 @@
     width: 100%;
     font-weight: var(--light);
     font-size: 16px;
-    line-height: 16px;
+    line-height: 20px;
     color: var(--blanco);
     letter-spacing: 0;
     text-align: center;
@@ -147,8 +176,18 @@
     width: 100%;
     font-weight: var(--black);
     font-size: 16px;
-    line-height: 16px;
+    line-height: 20px;
     color: var(--crema);
+    letter-spacing: 0;
+    text-align: center;
+  }
+  .description {
+    float: left;
+    width: 100%;
+    font-weight: var(--regular);
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--blanco);
     letter-spacing: 0;
     text-align: center;
   }
