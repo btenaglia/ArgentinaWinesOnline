@@ -2913,6 +2913,268 @@ article .box_info {
 
 /* END ABOUT US */
 
+/* BEGIN SHIPPING AND INSURANCE */
+
+#delivery_section {
+  float: left;
+  width: 100%;
+}
+
+#delivery_section .box {
+  width: calc(99.9% * 1/3 - (30px - 30px * 1/3));
+}
+
+#delivery_section .box:nth-child(1n){
+  float: left;
+  margin-right: 30px;
+  clear: none;
+}
+
+#delivery_section .box:last-child{
+  margin-right: 0;
+}
+
+#delivery_section .box:nth-child(3n){
+  margin-right: 0;
+  float: right;
+}
+
+#delivery_section .box:nth-child(3n + 1){
+  clear: both;
+}
+
+#delivery_section .result {
+  float: left;
+  width: -webkit-calc(100% - 20px);
+  width: -moz-calc(100% - 20px);
+  width: calc(100% - 20px);
+  padding: 10px;
+  background: #CE922E;
+  -webkit-box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.40);
+     -moz-box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.40);
+          box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.40);
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+     -moz-transition: all 0.3s ease-in-out;
+       -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+}
+
+#delivery_section .icon {
+  float: left;
+  width: 38px;
+  margin: 0 5px 0 0;
+}
+
+#delivery_section .info {
+  float: left;
+  width: -webkit-calc(100% - 38px - 5px);
+  width: -moz-calc(100% - 38px - 5px);
+  width: calc(100% - 38px - 5px);
+}
+
+#delivery_section .name {
+  float: left;
+  width: 100%;
+  font-weight: 900;
+  font-size: 16px;
+  color: #ffffff;
+  letter-spacing: 0;
+}
+
+#delivery_section .time {
+  float: left;
+  width: 100%;
+  font-weight: 300;
+  font-size: 14px;
+  color: #F0D2A3;
+  letter-spacing: 0;
+}
+
+.description_shipping {
+  float: left;
+  width: 100%;
+  margin: 60px 0;
+}
+
+.description_shipping .box {
+  float: none !important;
+  margin: auto !important;
+  width: calc(99.9% * 10/12 - (30px - 30px * 10/12));
+}
+
+.description_shipping .box:nth-child(1n){
+  float: left;
+  margin-right: 30px;
+  clear: none;
+}
+
+.description_shipping .box:last-child{
+  margin-right: 0;
+}
+
+.description_shipping .box:nth-child(12n){
+  margin-right: 0;
+  float: right;
+}
+
+.description_shipping .box:nth-child(12n + 1){
+  clear: both;
+}
+
+.description_shipping .text {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 23px;
+  color: #CE922E;
+  letter-spacing: 0;
+  line-height: 37px;
+  text-align: center;
+}
+
+#box_delivery_zone {
+  float: left;
+  width: 100vw;
+  padding: 100px 0;
+  background: url("../img/shipping_insurance/bg_delivery_zone@2x.jpg") center center no-repeat;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+#box_delivery_zone .full_box .box {
+  width: calc(99.9% * 1/2 - (30px - 30px * 1/2));
+}
+
+#box_delivery_zone .full_box .box:nth-child(1n){
+  float: left;
+  margin-right: 30px;
+  clear: none;
+}
+
+#box_delivery_zone .full_box .box:last-child{
+  margin-right: 0;
+}
+
+#box_delivery_zone .full_box .box:nth-child(2n){
+  margin-right: 0;
+  float: right;
+}
+
+#box_delivery_zone .full_box .box:nth-child(2n + 1){
+  clear: both;
+}
+
+#box_delivery_zone .full_box .full_box {
+  margin: 0 0 50px;
+}
+
+#box_delivery_zone .box_tittle {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin: 0 0 70px;
+}
+
+.btn_tittle_delivery {
+  display: block;
+  float: left;
+  width: 100%;
+  cursor: pointer;
+  border-bottom: 1px solid #CE922E;
+}
+
+.btn_tittle_delivery.active .icon {
+  -webkit-transform: rotate(180deg);
+     -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+       -o-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.btn_tittle_delivery .tittle {
+  float: left;
+  width: -webkit-calc(100% - 10px - 10px);
+  width: -moz-calc(100% - 10px - 10px);
+  width: calc(100% - 10px - 10px);
+  margin: 0 10px 0 0;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #EEEEEE;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin: 0 0 5px;
+}
+
+.btn_tittle_delivery .icon {
+  float: left;
+  width: 10px;
+  margin: 13px 0 0;
+  -webkit-transition: all 0.3s ease-in-out;
+     -moz-transition: all 0.3s ease-in-out;
+       -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+}
+
+.result_delivery {
+  display: none;
+  float: left;
+  width: 100%;
+  margin: 10px 0 0;
+}
+
+.result_delivery p {
+  color: #EEEEEE;
+  font-weight: 300;
+}
+
+#box_insurance {
+  float: left;
+  width: 100vw;
+  padding: 0 0 80px;
+}
+
+#box_insurance .box {
+  clear: both !important;
+  margin: -30px 0 0;
+  width: calc(99.9% * 1/2 - (30px - 30px * 1/2));
+}
+
+#box_insurance .box:nth-child(1n){
+  float: left;
+  margin-right: 30px;
+  clear: none;
+}
+
+#box_insurance .box:last-child{
+  margin-right: 0;
+}
+
+#box_insurance .box:nth-child(2n){
+  margin-right: 0;
+  float: right;
+}
+
+#box_insurance .box:nth-child(2n + 1){
+  clear: both;
+}
+
+#box_insurance .box:first-child {
+  margin: 0;
+}
+
+#box_insurance .pic {
+  margin: -150px 0 0 -webkit-calc((-100vw + 1200px) / 2);
+  margin: -150px 0 0 -moz-calc((-100vw + 1200px) / 2);
+  margin: -150px 0 0 calc((-100vw + 1200px) / 2);
+}
+
+/* END SHIPPING AND INSURANCE */
+
 @media (min-width: 320px){
 
   body{
@@ -5068,6 +5330,11 @@ article .box_info {
     width: -moz-calc(100% - 20px);
     width: calc(100% - 20px);
   }
+
+  #box_insurance p{
+    width: 100%;
+    margin: 0 0 40px;
+  }
 }
 
 @media (min-width: 720px){
@@ -6601,6 +6868,13 @@ article .box_info {
   #banner_contact a{
     width: 170px;
   }
+
+  #box_insurance p{
+    width: -webkit-calc(100% - 40px);
+    width: -moz-calc(100% - 40px);
+    width: calc(100% - 40px);
+    margin: 0 0 0 40px;
+  }
 }
 
 @media (min-width: 1024px){
@@ -8095,6 +8369,19 @@ article .box_info {
   #banner_contact .box:nth-child(12n + 1){
     clear: both;
   }
+
+  #delivery_section .result:hover{
+    -webkit-box-shadow: 10px 10px 40px 0 rgba(0,0,0,0.30);
+    -moz-box-shadow: 10px 10px 40px 0 rgba(0,0,0,0.30);
+    box-shadow: 10px 10px 40px 0 rgba(0,0,0,0.30);
+  }
+
+  #box_insurance p{
+    width: -webkit-calc(100% - 50px);
+    width: -moz-calc(100% - 50px);
+    width: calc(100% - 50px);
+    margin: 0 0 0 50px;
+  }
 }
 
 @media (min-width: 1200px){
@@ -8901,5 +9188,12 @@ article .box_info {
 
   #banner_contact .box:nth-child(12n + 1){
     clear: both;
+  }
+
+  #box_insurance p{
+    width: -webkit-calc(100% - 70px);
+    width: -moz-calc(100% - 70px);
+    width: calc(100% - 70px);
+    margin: 0 0 0 70px;
   }
 }

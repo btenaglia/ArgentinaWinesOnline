@@ -61,4 +61,10 @@ $(document).ready(function(){
         $('.box_login').slideDown('slow');
     });
   // END POPUP LOGIN & REGISTER
+  // BEGIN DELIVERY COMPONENT
+    $('.btn_tittle_delivery').click(function () {
+       $(this).toggleClass('active');
+       $(this).siblings('.result_delivery').slideToggle('slow');
+    });
+  // END DELIVERY COMPONENT
 });
