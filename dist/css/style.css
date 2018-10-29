@@ -1238,13 +1238,21 @@ img {
 .popup {
   position: fixed;
   display: table;
-  top: 0;
+  top: -200vh;
   left: 0;
   z-index: 10000;
   width: 100vw;
   height: 100vh;
   background: #000000;
   background: rgba(0, 0, 0, 0.9);
+  -webkit-transition: all 0.3s ease-in-out;
+     -moz-transition: all 0.3s ease-in-out;
+       -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+}
+
+.popup.active {
+  top: 0;
 }
 
 .popup .vertical {
@@ -1389,7 +1397,7 @@ img {
 
 .btn_close {
   cursor: pointer;
-  position: fixed;
+  position: absolute;
   top: 50px;
   right: 50px;
   z-index: 11000;

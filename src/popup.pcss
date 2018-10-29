@@ -2,12 +2,16 @@
 .popup {
   position: fixed;
   display: table;
-  top: 0;
+  top: -200vh;
   left: 0;
   z-index: 10000;
   width: 100vw;
   height: 100vh;
   background: rgba(0, 0, 0, 0.9);
+  transition: var(--animacion);
+  &.active {
+    top: 0;
+  }
   .vertical {
     display: table-cell;
     vertical-align: middle;
@@ -63,7 +67,7 @@
 }
 .btn_close {
   cursor: pointer;
-  position: fixed;
+  position: absolute;
   top: 50px;
   right: 50px;
   z-index: 11000;

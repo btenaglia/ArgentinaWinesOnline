@@ -43,4 +43,12 @@ $(document).ready(function(){
       $(this).next('.select_result').slideToggle('slow');
   });
   // END SELECT
+  // BEGIN POPUP LOGIN
+    $('#btn_login').click(function () {
+       $('#popup_login').addClass('active');
+    });
+    $('.btn_close').click(function () {
+       $(this).parent('.popup').removeClass('active');
+    });
+  // END POPUP LOGIN
 });
