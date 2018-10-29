@@ -1260,6 +1260,10 @@ img {
   vertical-align: middle;
 }
 
+.popup .box_register {
+  display: none;
+}
+
 .popup .box {
   float: none !important;
   margin: auto !important;

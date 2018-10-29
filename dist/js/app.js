@@ -43,7 +43,7 @@ $(document).ready(function(){
       $(this).next('.select_result').slideToggle('slow');
   });
   // END SELECT
-  // BEGIN POPUP LOGIN
+  // BEGIN POPUP LOGIN & REGISTER
     $('#btn_login').click(function () {
        $('#popup_login').addClass('active');
        $('body').addClass('hidden');
@@ -52,5 +52,13 @@ $(document).ready(function(){
        $(this).parent('.popup').removeClass('active');
         $('body').removeClass('hidden');
     });
-  // END POPUP LOGIN
+    $('#btn_register_form').click(function () {
+      $('.box_login').slideUp('slow');
+      $('.box_register').slideDown('slow');
+    });
+    $('#btn_login_form').click(function () {
+        $('.box_register').slideUp('slow');
+        $('.box_login').slideDown('slow');
+    });
+  // END POPUP LOGIN & REGISTER
 });
