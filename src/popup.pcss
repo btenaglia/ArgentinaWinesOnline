@@ -1,0 +1,111 @@
+/* BEGIN POPUP */
+.popup {
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  .vertical {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .box {
+    float: none !important;
+    margin: auto !important;
+    lost-column: 4/12;
+  }
+  .full_box {
+    .box {
+      lost-column: 1/2 !important;
+    }
+  }
+  h2 {
+    margin: 0 0 30px;
+  }
+  .box_input {
+    label {
+      color: var(--blanco);
+      font-size: 14px;
+    }
+    input {
+      float: left;
+      width: 100%;
+      font-weight: var(--light);
+      font-size: 16px;
+      line-height: 26px;
+      color: var(--blanco);
+      letter-spacing: 0;
+      border: 0 none;
+      background: none;
+      border-bottom: 1px solid var(--dorado);
+      &::placeholder {
+        font-weight: var(--light);
+        font-size: 16px;
+        line-height: 26px;
+        color: var(--blanco);
+      }
+      &:focus {
+        color: var(--crema);
+        border-bottom: 1px solid var(--crema);
+        &::placeholder {
+          color: var(--crema);
+        }
+      }
+    }
+  }
+  .btn_small,
+  .btn_small_line {
+    width: 100%;
+  }
+}
+.btn_close {
+  cursor: pointer;
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  z-index: 11000;
+  width: 19px;
+  transition: var(--animacion);
+  &:hover {
+    @media (--tabletland) {
+      opacity: 0.5;
+    }
+  }
+}
+.remember {
+  margin: 20px 0 0;
+  input {
+    float: left;
+    margin: 7px 10px 0 0;
+  }
+  p {
+    float: left;
+    width: calc(100% - 10px - 12px);
+    font-size: 16px;
+    color: var(--blanco);
+    letter-spacing: 0;
+  }
+}
+.btn_lost {
+  cursor: pointer;
+  float: left;
+  font-weight: var(--light);
+  font-size: 16px;
+  color: var(--crema);
+  letter-spacing: 0;
+  margin: 23px 0 0;
+  background: var(--none);
+  border: 0 none;
+  border-bottom: 1px solid var(--crema);
+  transition: var(--animacion);
+  &:hover {
+    @media (--tabletland) {
+      color: var(--dorado);
+      border-bottom: 1px solid var(--dorado);
+    }
+  }
+}
+/* END POPUP */

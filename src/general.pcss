@@ -984,6 +984,18 @@ img {
     }
   }
 }
+.btn_small_line {
+  @mixin BtnSmallBorder var(--naranja) , var(--none) , var(--naranja) {};
+  &.dorado {
+    background: var(--dorado);
+    border: 1px solid var(--dorado);
+    &:hover {
+      @media (--tabletland) {
+        color: var(--dorado);
+      }
+    }
+  }
+}
 .tittle_center {
   float: left;
   width: 100%;

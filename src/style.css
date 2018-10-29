@@ -1,6 +1,7 @@
 @import "variables.pcss";
 @import "general.pcss";
 @import "home.pcss";
+@import "popup.pcss";
 @import "list_product.pcss";
 @import "single.pcss";
 @import "shopping_cart.pcss";

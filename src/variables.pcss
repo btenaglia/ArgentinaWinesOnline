@@ -23,6 +23,7 @@
   --dorado: #CE922E;
   --crema: #F0D2A3;
   --naranja: #EE9800;
+  --none: none;
 
   --animacion: all 0.3s ease-in-out;
 }
@@ -82,6 +83,43 @@
     @media (--tabletland) {
       background: $(BgHover);
       color: $(ColorHover);
+    }
+  }
+}
+
+@define-mixin BtnSmallBorder $Color , $Bg , $Border  {
+  display: block;
+  cursor: pointer;
+  float: left;
+  font-family: var(--font3);
+  font-weight: var(--regular);
+  line-height: 0.8;
+  color: $(Color);
+  letter-spacing: 0;
+  text-align: center;
+  background: $(Bg);
+  border: 1px solid $(Border);
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: var(--animacion);
+  @media (--mobile) {
+    font-size: 14px;
+    width: 100%;
+    padding: 12px 10px 13px;
+  }
+  @media (--tabletport) {
+    width: 120px;
+  }
+  @media (--tabletland) {
+    font-size: 15px;
+  }
+  @media (--desktop) {
+    font-size: 16px;
+    padding: 13px 10px 14px;
+  }
+  &:hover {
+    @media (--tabletland) {
+      opacity: 0.4;
     }
   }
 }
