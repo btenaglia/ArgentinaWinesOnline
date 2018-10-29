@@ -1373,6 +1373,11 @@ img {
   margin: 7px 10px 0 0;
 }
 
+.remember.noMargin {
+  float: left;
+  margin: 10px 0 30px;
+}
+
 .remember p {
   float: left;
   font-size: 16px;
