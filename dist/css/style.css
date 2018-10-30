@@ -3145,6 +3145,25 @@ article .box_info {
   float: left;
   width: 100vw;
   margin: 80px 0;
+  position: relative;
+}
+
+.box_int_info i {
+  opacity: 0.1;
+  position: absolute;
+  z-index: -1;
+}
+
+.box_int_info i:nth-child(1) {
+  width: 400px;
+  left: 0;
+  top: 16%;
+}
+
+.box_int_info i:nth-child(2) {
+  width: 600px;
+  right: 0;
+  bottom: 16%;
 }
 
 .box_int_info .full_info {
