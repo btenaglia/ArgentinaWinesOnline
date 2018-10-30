@@ -1304,6 +1304,26 @@ img {
       }
     }
   }
+  &.user_page {
+    a {
+      position: relative;
+      &.active {
+        &:after {
+          width: 100%;
+        }
+      }
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        background: var(--negro);
+        width: 0;
+        height: 4px;
+      }
+    }
+  }
 }
 .btn_home {
   display: block;
