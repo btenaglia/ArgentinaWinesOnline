@@ -3168,14 +3168,19 @@ article .box_info {
   border-bottom: 1px solid #CE922E;
 }
 
+.box_int_info .box {
+  float: left;
+  overflow: hidden;
+  background: #ffffff;
+  margin-bottom: 30px;
+}
+
 .box_int_info h3 {
   margin: 0 0 10px;
 }
 
-.box_int_info .box {
-  float: left;
-  background: #ffffff;
-  margin-bottom: 30px;
+.box_int_info p {
+  word-break: unset;
 }
 
 /* END TERMS & CONDITIONS */

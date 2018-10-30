@@ -52,11 +52,9 @@
       margin: 0 0 50px;
     }
   }
-  h3 {
-    margin: 0 0 10px;
-  }
   .box {
     float: left;
+    overflow: hidden;
     background: var(--blanco);
     margin-bottom: 30px;
     @media (--mobile) {
@@ -67,6 +65,12 @@
       padding: 30px;
       lost-column: 9/12 2;
     }
+  }
+  h3 {
+    margin: 0 0 10px;
+  }
+  p {
+    word-break: unset;
   }
 }
 /* END TERMS & CONDITIONS */
