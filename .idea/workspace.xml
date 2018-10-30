@@ -50,8 +50,8 @@
       <file leaf-file-name="terms_and_conditions.pcss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/terms_and_conditions.pcss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            <state relative-caret-position="420">
+              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -235,12 +235,12 @@
       <workItem from="1540814838699" duration="7737000" />
       <workItem from="1540824562758" duration="11476000" />
       <workItem from="1540843770271" duration="4245000" />
-      <workItem from="1540905406459" duration="1716000" />
+      <workItem from="1540905406459" duration="1901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43209000" />
+    <option name="totallyTimeSpent" value="43394000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="0" />
@@ -616,8 +616,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/terms_and_conditions.pcss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="420">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
         </state>
       </provider>
     </entry>

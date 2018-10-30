@@ -11,7 +11,7 @@
     &:nth-child(1) {
       left: 0;
       @media (--mobile) {
-        width: 400px;
+        width: 100%;
         top: 16%;
       }
       @media (--tabletport) {
@@ -26,7 +26,7 @@
     &:nth-child(2) {
       right: 0;
       @media (--mobile) {
-        width: 600px;
+        width: 100%;
         bottom: 16%;
       }
       @media (--tabletport) {
@@ -44,10 +44,6 @@
     width: 100%;
     border-bottom: 1px solid var(--dorado);
     @media (--mobile) {
-      padding: 0 0 80px;
-      margin: 0 0 80px;
-    }
-    @media (--tabletport) {
       padding: 0 0 60px;
       margin: 0 0 30px;
     }
@@ -60,10 +56,17 @@
     margin: 0 0 10px;
   }
   .box {
+    float: left;
     background: var(--blanco);
-    padding: 30px;
     margin-bottom: 30px;
-    lost-column: 9/12 2;
+    @media (--mobile) {
+      padding: 20px;
+      width: calc(100% - 40px);
+    }
+    @media (--tabletport) {
+      padding: 30px;
+      lost-column: 9/12 2;
+    }
   }
 }
 /* END TERMS & CONDITIONS */
