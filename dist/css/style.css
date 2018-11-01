@@ -2709,29 +2709,6 @@ img {
   margin: 0 0 60px;
 }
 
-#box_custom_detail .box, #box_thanks_adress .box {
-  width: calc(99.9% * 1/2 - (30px - 30px * 1/2));
-}
-
-#box_custom_detail .box:nth-child(1n), #box_thanks_adress .box:nth-child(1n){
-  float: left;
-  margin-right: 30px;
-  clear: none;
-}
-
-#box_custom_detail .box:last-child, #box_thanks_adress .box:last-child{
-  margin-right: 0;
-}
-
-#box_custom_detail .box:nth-child(2n), #box_thanks_adress .box:nth-child(2n){
-  margin-right: 0;
-  float: right;
-}
-
-#box_custom_detail .box:nth-child(2n + 1), #box_thanks_adress .box:nth-child(2n + 1){
-  clear: both;
-}
-
 #box_custom_detail h4, #box_thanks_adress h4 {
   margin: 0 0 15px;
 }
@@ -5244,6 +5221,29 @@ article .box_info {
     line-height: 26px;
   }
 
+  #box_custom_detail .box, #box_thanks_adress .box{
+    width: calc(99.9% * 1/1 - (30px - 30px * 1/1));
+  }
+
+  #box_custom_detail .box:nth-child(1n), #box_thanks_adress .box:nth-child(1n){
+    float: left;
+    margin-right: 30px;
+    clear: none;
+  }
+
+  #box_custom_detail .box:last-child, #box_thanks_adress .box:last-child{
+    margin-right: 0;
+  }
+
+  #box_custom_detail .box:nth-child(1n), #box_thanks_adress .box:nth-child(1n){
+    margin-right: 0;
+    float: right;
+  }
+
+  #box_custom_detail .box:nth-child(1n + 1), #box_thanks_adress .box:nth-child(1n + 1){
+    clear: both;
+  }
+
   #section_blog{
     padding: 50px 0;
   }
@@ -7163,6 +7163,29 @@ article .box_info {
   #box_order_result b{
     font-size: 14px;
     line-height: 24px;
+  }
+
+  #box_custom_detail .box, #box_thanks_adress .box{
+    width: calc(99.9% * 1/2 - (30px - 30px * 1/2));
+  }
+
+  #box_custom_detail .box:nth-child(1n), #box_thanks_adress .box:nth-child(1n){
+    float: left;
+    margin-right: 30px;
+    clear: none;
+  }
+
+  #box_custom_detail .box:last-child, #box_thanks_adress .box:last-child{
+    margin-right: 0;
+  }
+
+  #box_custom_detail .box:nth-child(2n), #box_thanks_adress .box:nth-child(2n){
+    margin-right: 0;
+    float: right;
+  }
+
+  #box_custom_detail .box:nth-child(2n + 1), #box_thanks_adress .box:nth-child(2n + 1){
+    clear: both;
   }
 
   #section_blog{
