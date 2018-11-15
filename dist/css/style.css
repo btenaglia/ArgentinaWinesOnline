@@ -1625,6 +1625,12 @@ img {
   font-weight: 400;
 }
 
+.box_product_single .box_actions .price .stock {
+  font-size: 15px;
+  color: #A43517;
+  display: inline-block;
+}
+
 .box_product_single .box_actions input {
   float: left;
   width: -webkit-calc(100% - 2px);
