@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cda8546b-8c7a-47db-a3ca-66984a65e619" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/elements/cuckoo.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/elements/cuckoo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/elements/cuckoo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/elements/cuckoo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/elements/cuckoo@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/elements/cuckoo@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/general.pcss" beforeDir="false" afterPath="$PROJECT_DIR$/src/general.pcss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home.pcss" beforeDir="false" afterPath="$PROJECT_DIR$/src/home.pcss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variables.pcss" beforeDir="false" afterPath="$PROJECT_DIR$/src/variables.pcss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,20 +36,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="general.pcss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="general.pcss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/general.pcss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="1055" column="3" lean-forward="true" selection-start-line="1055" selection-start-column="3" selection-end-line="1055" selection-end-column="3" />
+            <state relative-caret-position="283">
+              <caret line="888" column="25" selection-start-line="888" selection-start-column="25" selection-end-line="888" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.pcss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.pcss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/home.pcss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="479" column="29" selection-start-line="479" selection-start-column="29" selection-end-line="479" selection-end-column="29" />
+            <state relative-caret-position="418">
+              <caret line="719" column="24" selection-start-line="719" selection-start-column="24" selection-end-line="719" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -72,8 +67,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>result</find>
-      <find>box_contact</find>
       <find>input</find>
       <find>h3</find>
       <find>box_int_info</find>
@@ -102,6 +95,8 @@
       <find>descri</find>
       <find>save</find>
       <find>box_products</find>
+      <find>product_single_element</find>
+      <find>.btn</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -136,10 +131,10 @@
         <option value="$PROJECT_DIR$/src/checkout.pcss" />
         <option value="$PROJECT_DIR$/src/single.pcss" />
         <option value="$PROJECT_DIR$/dist/single.html" />
-        <option value="$PROJECT_DIR$/src/general.pcss" />
         <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/src/variables.pcss" />
         <option value="$PROJECT_DIR$/src/home.pcss" />
+        <option value="$PROJECT_DIR$/src/general.pcss" />
       </list>
     </option>
   </component>
@@ -256,12 +251,12 @@
       <workItem from="1545421003823" duration="13000" />
       <workItem from="1545421218939" duration="13000" />
       <workItem from="1547665728067" duration="13000" />
-      <workItem from="1547832757859" duration="2721000" />
+      <workItem from="1547832757859" duration="2888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54959000" />
+    <option name="totallyTimeSpent" value="55126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1680" height="1023" extended-state="6" />
@@ -616,17 +611,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/general.pcss">
+    <entry file="file://$PROJECT_DIR$/src/home.pcss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="1055" column="3" lean-forward="true" selection-start-line="1055" selection-start-column="3" selection-end-line="1055" selection-end-column="3" />
+        <state relative-caret-position="418">
+          <caret line="719" column="24" selection-start-line="719" selection-start-column="24" selection-end-line="719" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/home.pcss">
+    <entry file="file://$PROJECT_DIR$/src/general.pcss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="479" column="29" selection-start-line="479" selection-start-column="29" selection-end-line="479" selection-end-column="29" />
+        <state relative-caret-position="283">
+          <caret line="888" column="25" selection-start-line="888" selection-start-column="25" selection-end-line="888" selection-end-column="25" />
         </state>
       </provider>
     </entry>
