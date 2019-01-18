@@ -263,7 +263,7 @@ h6 {
 p {
   float: left;
   width: 100%;
-  font-weight: 400;
+  font-weight: 300;
   color: #898989;
   letter-spacing: 0;
   margin: 0;
@@ -818,9 +818,8 @@ img {
   width: 100%;
   font-family: 'Roboto Slab', serif;
   font-weight: 700;
-  color: #EE9800;
+  color: #993366;
   letter-spacing: 0;
-  text-transform: uppercase;
   text-shadow: 2px 2px 5px #000000 , 5px 5px 10px #000000;
 }
 
@@ -828,7 +827,7 @@ img {
   float: left;
   width: 100%;
   font-family: 'Roboto Slab', serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: italic;
   color: #EEEEEE;
   letter-spacing: 0;
@@ -3821,9 +3820,6 @@ article .box_info {
 
   #box_breadcrumbs{
     margin: 127px 0 0;
-  }
-
-  #box_breadcrumbs{
     padding: 5px 0;
   }
 
@@ -3858,7 +3854,7 @@ article .box_info {
   }
 
   .banner_general .subtittle{
-    font-size: 23px;
+    font-size: 21px;
   }
 
   .list_nav .row{
@@ -6252,9 +6248,6 @@ article .box_info {
 
   #box_breadcrumbs{
     margin: 188px 0 0;
-  }
-
-  #box_breadcrumbs{
     padding: 10px 0;
   }
 
@@ -6289,7 +6282,7 @@ article .box_info {
   }
 
   .banner_general .subtittle{
-    font-size: 28px;
+    font-size: 26px;
   }
 
   .list_nav .row{
@@ -8130,7 +8123,7 @@ article .box_info {
   }
 
   .banner_general .subtittle{
-    font-size: 32px;
+    font-size: 30px;
   }
 
   .list_nav .row{
@@ -9686,7 +9679,7 @@ article .box_info {
   }
 
   #box_breadcrumbs{
-    margin: 217px 0 0;
+    margin: 236px 0 0;
   }
 
   #box_breadcrumbs a{
@@ -9707,7 +9700,7 @@ article .box_info {
   }
 
   .banner_general .subtittle{
-    font-size: 35px;
+    font-size: 33px;
   }
 
   .list_nav .row{

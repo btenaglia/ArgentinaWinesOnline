@@ -530,7 +530,7 @@ h6 {
 p {
   float: left;
   width: 100%;
-  font-weight: var(--regular);
+  font-weight: var(--light);
   color: var(--gris);
   letter-spacing: 0;
   margin: 0;
@@ -1239,12 +1239,19 @@ img {
   float: left;
   width: 100vw;
   background: var(--dorado);
-  @mixin MarginTopSection {};
   @media (--mobile) {
+    margin: 127px 0 0;
     padding: 5px 0;
   }
   @media (--tabletport) {
+    margin: 188px 0 0;
     padding: 10px 0;
+  }
+  @media (--tabletland) {
+    margin: 208px 0 0;
+  }
+  @media (--desktop) {
+    margin: 236px 0 0;
   }
   ul {
     float: left;
@@ -1390,9 +1397,8 @@ img {
     width: 100%;
     font-family: var(--font2);
     font-weight: var(--bold);
-    color: var(--naranja);
+    color: var(--violetamedio);
     letter-spacing: 0;
-    text-transform: uppercase;
     text-shadow: 2px 2px 5px #000000 , 5px 5px 10px #000000;
     @media (--mobile) {
       font-size: 35px;
@@ -1411,22 +1417,22 @@ img {
     float: left;
     width: 100%;
     font-family: var(--font2);
-    font-weight: var(--regular);
+    font-weight: var(--light);
     font-style: italic;
     color: var(--grisclaro);
     letter-spacing: 0;
     text-shadow: 2px 2px 5px #000000 , 5px 5px 10px #000000;
     @media (--mobile) {
-      font-size: 23px;
+      font-size: 21px;
     }
     @media (--tabletport) {
-      font-size: 28px;
+      font-size: 26px;
     }
     @media (--tabletland) {
-      font-size: 32px;
+      font-size: 30px;
     }
     @media (--desktop) {
-      font-size: 35px;
+      font-size: 33px;
     }
   }
 }
