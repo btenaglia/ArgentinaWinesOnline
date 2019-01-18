@@ -64,7 +64,7 @@
       border: 0 none;
       border-radius: 0;
       background: none;
-      border-bottom: 1px solid var(--dorado);
+      border-bottom: 1px solid var(--violetamedio);
       &::placeholder {
         font-weight: var(--light);
         font-size: 16px;
@@ -80,7 +80,22 @@
       }
     }
   }
-  .btn_small,
+  .btn_small {
+    background: var(--violetamedio);
+    border: 1px solid var(--violetamedio);
+    width: 100%;
+    &:hover {
+      @media (--tabletland) {
+        color: var(--violetamedio);
+      }
+    }
+    @media (--mobile) {
+      margin: 0 0 20px;
+    }
+    @media (--tabletport) {
+      margin: 0;
+    }
+  }
   .btn_small_line {
     width: 100%;
     @media (--mobile) {
