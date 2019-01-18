@@ -70,7 +70,7 @@ footer {
 footer .legal {
   float: left;
   width: 100%;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 300;
   color: #231F20;
   letter-spacing: 0;
@@ -254,7 +254,7 @@ h6 {
   margin: 0 0 10px;
   text-align: left;
   font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   color: #7A1E47;
   letter-spacing: 0;
   border-bottom: 1px solid #7A1E47;
@@ -500,13 +500,13 @@ img {
   cursor: pointer;
   float: left;
   font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 0.8;
   color: #ffffff;
   letter-spacing: 0;
   text-align: center;
-  background: #EE9800;
-  border: 1px solid #EE9800;
+  background: #7A1E47;
+  border: 1px solid #7A1E47;
   text-transform: uppercase;
   text-decoration: none;
   -webkit-transition: all 0.3s ease-in-out;
@@ -647,7 +647,7 @@ img {
 #box_latest_offers p {
   float: left;
   font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   color: #ffffff;
   letter-spacing: 0;
   padding: 0;
@@ -3772,7 +3772,7 @@ article .box_info {
     width: -moz-calc(100% - 20px - 2px);
     width: calc(100% - 20px - 2px);
     margin: 0 0 10px;
-    padding: 5px 10px 8px;
+    padding: 9px 10px 8px;
     font-size: 16px;
   }
 
@@ -6204,7 +6204,7 @@ article .box_info {
   #box_latest_offers input{
     width: 200px;
     margin: 0 20px 0 0;
-    padding: 5px 10px 8px;
+    padding: 9px 10px 8px;
     font-size: 17px;
   }
 
@@ -7977,7 +7977,7 @@ article .box_info {
 
   .btn:hover{
     background: #231F20;
-    color: #EE9800;
+    color: #7A1E47;
   }
 
   .btn_medium{
@@ -7988,7 +7988,7 @@ article .box_info {
 
   .btn_medium:hover{
     background: #231F20;
-    color: #EE9800;
+    color: #CC99B2;
   }
 
   .btn_medium.dorado:hover{
@@ -8050,7 +8050,7 @@ article .box_info {
 
   #box_latest_offers input{
     width: 300px;
-    padding: 5px 15px 8px;
+    padding: 9px 15px 8px;
     font-size: 18px;
   }
 
@@ -9650,12 +9650,12 @@ article .box_info {
 
   #box_latest_offers p{
     font-size: 22px;
-    margin: 1px 20px 0 0;
+    margin: 7px 20px 0 0;
   }
 
   #box_latest_offers input{
     width: 370px;
-    padding: 5px 20px 8px;
+    padding: 9px 20px 8px;
   }
 
   .payment_method .logo{
