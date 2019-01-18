@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cda8546b-8c7a-47db-a3ca-66984a65e619" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/general.pcss" beforeDir="false" afterPath="$PROJECT_DIR$/src/general.pcss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home.pcss" beforeDir="false" afterPath="$PROJECT_DIR$/src/home.pcss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variables.pcss" beforeDir="false" afterPath="$PROJECT_DIR$/src/variables.pcss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,8 +28,8 @@
       <file leaf-file-name="general.pcss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/general.pcss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="671" column="34" selection-start-line="671" selection-start-column="34" selection-end-line="671" selection-end-column="34" />
+            <state relative-caret-position="208">
+              <caret line="105" column="13" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -40,8 +37,8 @@
       <file leaf-file-name="home.pcss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/home.pcss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="312" column="19" selection-start-line="312" selection-start-column="19" selection-end-line="312" selection-end-column="19" />
+            <state relative-caret-position="324">
+              <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -59,7 +56,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>EEEEEE</find>
       <find>box_custom_detail</find>
       <find>pic_product</find>
       <find>box_product_single</find>
@@ -89,6 +85,7 @@
       <find>btn</find>
       <find>banner</find>
       <find>.tittle</find>
+      <find>list_nav</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -244,12 +241,12 @@
       <workItem from="1545421003823" duration="13000" />
       <workItem from="1545421218939" duration="13000" />
       <workItem from="1547665728067" duration="13000" />
-      <workItem from="1547832757859" duration="3857000" />
+      <workItem from="1547832757859" duration="4039000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56095000" />
+    <option name="totallyTimeSpent" value="56277000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1680" height="1023" extended-state="6" />
@@ -606,15 +603,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/general.pcss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="671" column="34" selection-start-line="671" selection-start-column="34" selection-end-line="671" selection-end-column="34" />
+        <state relative-caret-position="208">
+          <caret line="105" column="13" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/home.pcss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="312" column="19" selection-start-line="312" selection-start-column="19" selection-end-line="312" selection-end-column="19" />
+        <state relative-caret-position="324">
+          <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
         </state>
       </provider>
     </entry>
