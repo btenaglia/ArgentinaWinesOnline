@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Oswald:300,400,500,600,700|Playfair+Display:400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,300,400,500,700,900');
 
 body {
   float: left;
   height: 100vh;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -138,7 +138,7 @@ nav a,
 }
 
 nav a.active, nav .btn_drop.active {
-  color: #CE922E;
+  color: #CC99B2;
 }
 
 nav a.active:before, nav .btn_drop.active:before {
@@ -151,7 +151,7 @@ nav a:before, nav .btn_drop:before {
   left: 0;
   width: 0;
   height: 4px;
-  background: #CE922E;
+  background: #7A1E47;
   -webkit-transition: all 0.3s ease-in-out;
      -moz-transition: all 0.3s ease-in-out;
        -o-transition: all 0.3s ease-in-out;
@@ -187,32 +187,32 @@ aside a {
 h1 {
   float: left;
   width: 100%;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 700;
-  color: #CE922E;
+  color: #7A1E47;
   letter-spacing: 0;
   margin: 0;
 }
 
 h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 700;
-  color: #CE922E;
+  color: #7A1E47;
   letter-spacing: 0;
   padding: 0;
 }
 
 h2.margin {
   padding: 0 0 20px;
-  border-bottom: 1px solid #CE922E;
+  border-bottom: 1px solid #7A1E47;
 }
 
 h3 {
   float: left;
   width: 100%;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 400;
-  color: #CE922E;
+  color: #7A1E47;
   letter-spacing: 0;
   margin: 0;
   padding: 0;
@@ -225,13 +225,13 @@ h3.bold {
 h4 {
   float: left;
   width: 100%;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 400;
   line-height: 0.8;
-  color: #CE922E;
+  color: #7A1E47;
   letter-spacing: 0;
   margin: 0;
-  border-bottom: 1px solid #CE922E;
+  border-bottom: 1px solid #7A1E47;
 }
 
 h4.margin {
@@ -255,9 +255,9 @@ h6 {
   text-align: left;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
-  color: #CE922E;
+  color: #7A1E47;
   letter-spacing: 0;
-  border-bottom: 1px solid #CE922E;
+  border-bottom: 1px solid #7A1E47;
 }
 
 p {
@@ -331,7 +331,7 @@ img {
   float: left;
   width: 100%;
   height: 1px;
-  background: #CE922E;
+  background: #7A1E47;
   margin: 0 0 6px;
   -webkit-transition: all 0.3s ease-in-out;
      -moz-transition: all 0.3s ease-in-out;
@@ -516,8 +516,8 @@ img {
 }
 
 .btn_medium.dorado {
-  background: #CE922E;
-  border: 1px solid #CE922E;
+  background: #7A1E47;
+  border: 1px solid #7A1E47;
 }
 
 .btn_small {
@@ -530,8 +530,8 @@ img {
   color: #ffffff;
   letter-spacing: 0;
   text-align: center;
-  background: #CE922E;
-  border: 1px solid #CE922E;
+  background: #7A1E47;
+  border: 1px solid #7A1E47;
   text-transform: uppercase;
   text-decoration: none;
   -webkit-transition: all 0.3s ease-in-out;
@@ -541,8 +541,8 @@ img {
 }
 
 .btn_small.dorado {
-  background: #CE922E;
-  border: 1px solid #CE922E;
+  background: #7A1E47;
+  border: 1px solid #7A1E47;
 }
 
 .btn_small_gray {
@@ -586,15 +586,15 @@ img {
 }
 
 .btn_small_line.dorado {
-  background: #CE922E;
-  border: 1px solid #CE922E;
+  background: #7A1E47;
+  border: 1px solid #7A1E47;
 }
 
 .tittle_center {
   float: left;
   width: 100%;
   text-align: center;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 400;
   line-height: 0.8;
   color: #EE9800;
@@ -718,7 +718,7 @@ img {
 #box_breadcrumbs {
   float: left;
   width: 100vw;
-  background: #CE922E;
+  background: #7A1E47;
 }
 
 #box_breadcrumbs ul {
@@ -816,7 +816,7 @@ img {
 .banner_general .tittle {
   float: left;
   width: 100%;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 700;
   color: #EE9800;
   letter-spacing: 0;
@@ -827,7 +827,7 @@ img {
 .banner_general .subtittle {
   float: left;
   width: 100%;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 400;
   font-style: italic;
   color: #EEEEEE;
@@ -839,7 +839,7 @@ img {
   float: left;
   width: 100%;
   height: 1px;
-  background: #CE922E;
+  background: #7A1E47;
 }
 
 /* END REUTILIZABLE */
@@ -850,7 +850,7 @@ img {
   display: none;
   float: left;
   width: 100vw;
-  background: #CE922E;
+  background: #7A1E47;
 }
 
 .list_nav .row {
@@ -943,7 +943,7 @@ img {
 
 .general_info_banner .box_info {
   float: left;
-  background: #CE922E;
+  background: #7A1E47;
   -webkit-border-radius: 5px;
      -moz-border-radius: 5px;
           border-radius: 5px;
@@ -972,7 +972,7 @@ img {
   float: left;
   width: 100%;
   font-weight: 400;
-  color: #EBD3AB;
+  color: #CC99B2;
   letter-spacing: 0;
 }
 
@@ -984,9 +984,9 @@ img {
 .tittle_banner .tittle {
   float: left;
   width: 100%;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 700;
-  color: #EE9800;
+  color: #ffffff;
   letter-spacing: 0;
   text-shadow: 2px 2px 5px #000000 , 5px 5px 10px #000000 , 15px 15px 30px #000000;
   line-height: 1;
@@ -995,8 +995,8 @@ img {
 .tittle_banner .description {
   float: left;
   width: 100%;
-  font-family: 'Playfair Display', serif;
-  font-family: 400;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
   font-style: italic;
   color: #ffffff;
   letter-spacing: 0;
@@ -1074,7 +1074,7 @@ img {
   width: 100%;
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
-  color: #CE922E;
+  color: #7A1E47;
   letter-spacing: 0;
   text-transform: uppercase;
 }
@@ -1115,7 +1115,7 @@ img {
   clear: both;
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
-  color: #CE922E;
+  color: #7A1E47;
   letter-spacing: 0;
   line-height: 0.8;
 }
@@ -1161,7 +1161,7 @@ img {
 .cuckoo .text {
   float: left;
   margin: 8px 0 10px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 400;
   line-height: 1.1;
   color: #ffffff;
@@ -1232,7 +1232,7 @@ img {
   float: left;
   width: 100%;
   height: 1px;
-  background: #CE922E;
+  background: #7A1E47;
   margin: 10px 0;
 }
 
@@ -1242,7 +1242,7 @@ img {
   text-align: center;
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
-  color: #CE922E;
+  color: #7A1E47;
   letter-spacing: 0;
   text-align: center;
   line-height: 0.8;
@@ -1322,7 +1322,7 @@ img {
      -moz-border-radius: 0;
           border-radius: 0;
   background: none;
-  border-bottom: 1px solid #CE922E;
+  border-bottom: 1px solid #7A1E47;
 }
 
 .popup .box_input input::-webkit-input-placeholder {
@@ -1361,28 +1361,28 @@ img {
 }
 
 .popup .box_input input:focus {
-  color: #F0D2A3;
-  border-bottom: 1px solid #F0D2A3;
+  color: #CC99B2;
+  border-bottom: 1px solid #CC99B2;
 }
 
 .popup .box_input input:focus::-webkit-input-placeholder {
-  color: #F0D2A3;
+  color: #CC99B2;
 }
 
 .popup .box_input input:focus:-moz-placeholder {
-  color: #F0D2A3;
+  color: #CC99B2;
 }
 
 .popup .box_input input:focus::-moz-placeholder {
-  color: #F0D2A3;
+  color: #CC99B2;
 }
 
 .popup .box_input input:focus:-ms-input-placeholder {
-  color: #F0D2A3;
+  color: #CC99B2;
 }
 
 .popup .box_input input:focus::placeholder {
-  color: #F0D2A3;
+  color: #CC99B2;
 }
 
 .popup .btn_small,
@@ -1425,13 +1425,13 @@ img {
   float: left;
   width: 100%;
   font-weight: 300;
-  color: #F0D2A3;
+  color: #CC99B2;
   letter-spacing: 0;
   margin: 23px 0 0;
   text-align: center;
   background: none;
   border: 0 none;
-  border-bottom: 1px solid #F0D2A3;
+  border-bottom: 1px solid #CC99B2;
   -webkit-transition: all 0.3s ease-in-out;
      -moz-transition: all 0.3s ease-in-out;
        -o-transition: all 0.3s ease-in-out;
@@ -1515,7 +1515,7 @@ img {
   width: 100%;
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
-  color: #CE922E;
+  color: #7A1E47;
   letter-spacing: 0;
   line-height: 0.8;
   margin: 0 0 7px;
@@ -1771,7 +1771,7 @@ img {
 }
 
 .fact_component p {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 400;
   font-style: italic;
   color: #898989;
@@ -1832,14 +1832,14 @@ img {
 #box_reviews .box_input input {
   float: left;
   width: 100%;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 400;
   font-style: italic;
   color: #898989;
   letter-spacing: 0;
   padding: 10px 0;
   border: 0 none;
-  border-bottom: 1px solid #CE922E;
+  border-bottom: 1px solid #7A1E47;
   outline: none;
   -webkit-transition: all 0.3s ease-in-out;
      -moz-transition: all 0.3s ease-in-out;
@@ -1893,7 +1893,7 @@ img {
 #box_reviews .box_name .name {
   float: left;
   font-weight: 900;
-  color: #CE922E;
+  color: #7A1E47;
   letter-spacing: 0;
   margin: 0 10px 0 0;
 }
@@ -1966,7 +1966,7 @@ img {
 #list_product_shop .top {
   float: left;
   width: 100%;
-  border-bottom: 1px solid #CE922E;
+  border-bottom: 1px solid #7A1E47;
 }
 
 #list_product_shop .result {
@@ -2014,7 +2014,7 @@ img {
 #list_product_shop .price {
   display: table-cell;
   font-weight: 400;
-  color: #CE922E;
+  color: #7A1E47;
   width: 100%;
   letter-spacing: 0;
   vertical-align: middle;
@@ -2070,13 +2070,13 @@ img {
 }
 
 #list_product_shop input:focus {
-  border: 1px solid #CE922E;
+  border: 1px solid #7A1E47;
 }
 
 #list_product_shop .total {
   display: table-cell;
   font-weight: 900;
-  color: #CE922E;
+  color: #7A1E47;
   width: 100%;
   letter-spacing: 0;
   vertical-align: middle;
@@ -2230,7 +2230,7 @@ img {
 }
 
 #sidebar h5 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 400;
   color: #231F20;
   letter-spacing: 0;
@@ -2259,7 +2259,7 @@ img {
   float: left;
   width: 100%;
   font-weight: 900;
-  color: #CE922E;
+  color: #7A1E47;
   letter-spacing: 0;
   line-height: 0.8;
   text-transform: uppercase;
@@ -2281,7 +2281,7 @@ img {
 #box_coupon {
   cursor: pointer;
   float: left;
-  background: #CE922E;
+  background: #7A1E47;
 }
 
 #box_coupon b {
@@ -2642,7 +2642,7 @@ img {
 
 #box_order b {
   font-weight: 900;
-  color: #CE922E;
+  color: #7A1E47;
   width: 100%;
   letter-spacing: 0;
   vertical-align: middle;
@@ -2711,7 +2711,7 @@ img {
 #box_order_result b {
   float: left;
   width: 100%;
-  color: #CE922E;
+  color: #7A1E47;
 }
 
 #box_custom_detail,
@@ -2850,7 +2850,7 @@ article .box_info {
 #box_about_pics {
   float: left;
   width: 100vw;
-  background: #CE922E;
+  background: #7A1E47;
 }
 
 #box_about_pics .pic {
@@ -2906,7 +2906,7 @@ article .box_info {
 .full_table .box_world {
   float: left;
   width: 100%;
-  background: #CE922E;
+  background: #7A1E47;
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
   color: #ffffff;
@@ -2956,7 +2956,7 @@ article .box_info {
   width: 100%;
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
-  color: #CE922E;
+  color: #7A1E47;
   letter-spacxing: 0;
   padding: 15px 0;
   text-align: center !important;
@@ -2967,7 +2967,7 @@ article .box_info {
   width: 100%;
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
-  color: #CE922E;
+  color: #7A1E47;
   letter-spacing: 0;
 }
 
@@ -2975,7 +2975,7 @@ article .box_info {
   float: left;
   width: 100%;
   font-weight: 400;
-  color: #F0D2A3;
+  color: #CC99B2;
   letter-spacing: 0;
 }
 
@@ -2992,7 +2992,7 @@ article .box_info {
   float: left;
   width: 100%;
   font-weight: 900;
-  color: #F0D2A3;
+  color: #CC99B2;
   letter-spacing: 0;
   text-align: center !important;
 }
@@ -3075,7 +3075,7 @@ article .box_info {
   float: left;
   width: 100%;
   font-weight: 300;
-  color: #F0D2A3;
+  color: #CC99B2;
   letter-spacing: 0;
 }
 
@@ -3091,9 +3091,9 @@ article .box_info {
 }
 
 .description_shipping .text {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 400;
-  color: #CE922E;
+  color: #7A1E47;
   letter-spacing: 0;
   text-align: center;
 }
@@ -3125,7 +3125,7 @@ article .box_info {
   float: left;
   width: 100%;
   cursor: pointer;
-  border-bottom: 1px solid #CE922E;
+  border-bottom: 1px solid #7A1E47;
 }
 
 .btn_tittle_delivery.active .icon {
@@ -3142,7 +3142,7 @@ article .box_info {
   width: -moz-calc(100% - 10px - 10px);
   width: calc(100% - 10px - 10px);
   margin: 0 10px 5px 0;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 400;
   color: #EEEEEE;
   letter-spacing: 0;
@@ -3269,7 +3269,7 @@ article .box_info {
 .box_int_info .full_info {
   float: left;
   width: 100%;
-  border-bottom: 1px solid #CE922E;
+  border-bottom: 1px solid #7A1E47;
 }
 
 .box_int_info .box {
@@ -3316,14 +3316,14 @@ article .box_info {
   float: left;
   width: 100%;
   padding: 0 0 10px;
-  border-bottom: 1px solid #CE922E;
+  border-bottom: 1px solid #7A1E47;
 }
 
 #box_user_dashboard .list_products .tittle {
   font-weight: 900;
   font-size: 14px;
   line-height: 0.8;
-  color: #CE922E;
+  color: #7A1E47;
   letter-spacing: 0;
   text-transform: uppercase;
 }
@@ -3345,7 +3345,7 @@ article .box_info {
 
 #box_user_dashboard .list_products .price {
   text-align: left !important;
-  color: #CE922E !important;
+  color: #7A1E47 !important;
 }
 
 #box_user_dashboard .list_products .name {
@@ -6412,7 +6412,7 @@ article .box_info {
   }
 
   .tittle_banner .description{
-    font-size: 40px;
+    font-size: 41px;
   }
 
   #banners_home .big_box{
@@ -7800,7 +7800,7 @@ article .box_info {
   }
 
   footer .result a:hover{
-    color: #CE922E;
+    color: #7A1E47;
     opacity: 0.5;
   }
 
@@ -7815,7 +7815,7 @@ article .box_info {
   }
 
   nav a:hover, nav .btn_drop:hover{
-    color: #F0D2A3;
+    color: #CC99B2;
     opacity: 0.75;
   }
 
@@ -7913,7 +7913,7 @@ article .box_info {
   }
 
   .interaction_top button:hover .text{
-    color: #CE922E;
+    color: #7A1E47;
   }
 
   .interaction_top button .icon{
@@ -7992,7 +7992,7 @@ article .box_info {
   }
 
   .btn_medium.dorado:hover{
-    color: #CE922E;
+    color: #7A1E47;
   }
 
   .btn_small{
@@ -8001,11 +8001,11 @@ article .box_info {
 
   .btn_small:hover{
     background: #231F20;
-    color: #CE922E;
+    color: #7A1E47;
   }
 
   .btn_small.dorado:hover{
-    color: #CE922E;
+    color: #7A1E47;
   }
 
   .btn_small_gray{
@@ -8030,7 +8030,7 @@ article .box_info {
   }
 
   .btn_small_line.dorado:hover{
-    color: #CE922E;
+    color: #7A1E47;
   }
 
   .tittle_center{
@@ -8168,7 +8168,7 @@ article .box_info {
   }
 
   .tittle_banner .description{
-    font-size: 48px;
+    font-size: 43px;
   }
 
   #banners_home{
@@ -8357,8 +8357,8 @@ article .box_info {
   }
 
   .btn_lost:hover{
-    color: #CE922E;
-    border-bottom: 1px solid #CE922E;
+    color: #7A1E47;
+    border-bottom: 1px solid #7A1E47;
   }
 
   #box_list_product .tittle_center{
@@ -9088,7 +9088,7 @@ article .box_info {
   }
 
   .box_input .select_result div:hover{
-    color: #CE922E;
+    color: #7A1E47;
   }
 
   #box_order .result{
@@ -9390,7 +9390,7 @@ article .box_info {
   }
 
   #box_contact a:hover{
-    color: #CE922E;
+    color: #7A1E47;
   }
 
   #box_contact form{
@@ -9576,7 +9576,7 @@ article .box_info {
   }
 
   #logo_whisky{
-    width: 228px;
+    width: 330px;
   }
 
   #logo_footer{
@@ -9671,7 +9671,7 @@ article .box_info {
   }
 
   #box_breadcrumbs{
-    margin: 299px 0 0;
+    margin: 217px 0 0;
   }
 
   #box_breadcrumbs a{
@@ -9684,7 +9684,7 @@ article .box_info {
   }
 
   .banner_general.margin{
-    margin: 299px 0 0;
+    margin: 217px 0 0;
   }
 
   .banner_general .tittle{
@@ -9713,7 +9713,7 @@ article .box_info {
   }
 
   #banner_home{
-    margin: 299px 0 0;
+    margin: 217px 0 0;
   }
 
   .general_info_banner{
@@ -9756,7 +9756,7 @@ article .box_info {
   }
 
   .tittle_banner .description{
-    font-size: 60px;
+    font-size: 45px;
   }
 
   #banners_home{
@@ -10062,7 +10062,7 @@ article .box_info {
   }
 
   #section_shopping_cart.margin{
-    margin: 299px 0 0;
+    margin: 217px 0 0;
   }
 
   #list_product_shop .result{
@@ -10265,7 +10265,7 @@ article .box_info {
   }
 
   #section_blog.margin{
-    margin: 299px 0 0;
+    margin: 217px 0 0;
   }
 
   #box_about p{
