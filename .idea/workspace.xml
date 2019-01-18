@@ -2,34 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cda8546b-8c7a-47db-a3ca-66984a65e619" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Whisky International Online.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Argentina Wines Online.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/icon_cart.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/icon_cart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/icon_cart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/icon_cart.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/icon_cart@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/icon_cart@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/icon_description_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/icon_description_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/icon_description_1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/icon_description_1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/icon_description_1@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/icon_description_1@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/icon_description_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/icon_description_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/icon_description_2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/icon_description_2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/icon_description_2@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/icon_description_2@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/icon_description_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/icon_description_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/icon_description_3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/icon_description_3.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/icon_description_3@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/icon_description_3@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/icon_description_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/icon_description_4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/icon_description_4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/icon_description_4.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/icon_description_4@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/icon_description_4@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/icon_search.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/icon_search.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/icon_search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/icon_search.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/icon_search@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/icon_search@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/icon_user.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/icon_user.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/icon_user.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/icon_user.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/icon_user@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/icon_user@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/elements/cuckoo.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/elements/cuckoo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/elements/cuckoo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/elements/cuckoo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/elements/cuckoo@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/elements/cuckoo@2x.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/single.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/general.pcss" beforeDir="false" afterPath="$PROJECT_DIR$/src/general.pcss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home.pcss" beforeDir="false" afterPath="$PROJECT_DIR$/src/home.pcss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/variables.pcss" beforeDir="false" afterPath="$PROJECT_DIR$/src/variables.pcss" afterDir="false" />
@@ -49,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="456" column="98" selection-start-line="456" selection-start-column="98" selection-end-line="456" selection-end-column="98" />
+            <state relative-caret-position="300">
+              <caret line="20" column="164" selection-start-line="20" selection-start-column="164" selection-end-line="20" selection-end-column="164" />
             </state>
           </provider>
         </entry>
@@ -67,17 +44,8 @@
       <file leaf-file-name="general.pcss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/general.pcss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="283" column="24" selection-start-line="283" selection-start-column="24" selection-end-line="283" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="single.pcss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/single.pcss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2745">
-              <caret line="183" column="30" selection-start-line="183" selection-start-column="30" selection-end-line="183" selection-end-column="30" />
+            <state relative-caret-position="176">
+              <caret line="1055" column="3" lean-forward="true" selection-start-line="1055" selection-start-column="3" selection-end-line="1055" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -85,8 +53,8 @@
       <file leaf-file-name="home.pcss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/home.pcss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="306" column="23" selection-start-line="306" selection-start-column="23" selection-end-line="306" selection-end-column="23" />
+            <state relative-caret-position="326">
+              <caret line="479" column="29" selection-start-line="479" selection-start-column="29" selection-end-line="479" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -94,8 +62,8 @@
       <file leaf-file-name="variables.pcss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/variables.pcss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            <state relative-caret-position="75">
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -104,12 +72,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>siblings</find>
-      <find>btn_tittle_delivery</find>
-      <find>delivery_section</find>
-      <find>description_shipping</find>
-      <find>box_delivery_zone</find>
-      <find>row</find>
       <find>result</find>
       <find>box_contact</find>
       <find>input</find>
@@ -134,6 +96,12 @@
       <find>nav</find>
       <find>general_info_banner</find>
       <find>tittle_banner</find>
+      <find>tittle_center</find>
+      <find>cuckoo</find>
+      <find>box_product_month</find>
+      <find>descri</find>
+      <find>save</find>
+      <find>box_products</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -168,9 +136,9 @@
         <option value="$PROJECT_DIR$/src/checkout.pcss" />
         <option value="$PROJECT_DIR$/src/single.pcss" />
         <option value="$PROJECT_DIR$/dist/single.html" />
+        <option value="$PROJECT_DIR$/src/general.pcss" />
         <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/src/variables.pcss" />
-        <option value="$PROJECT_DIR$/src/general.pcss" />
         <option value="$PROJECT_DIR$/src/home.pcss" />
       </list>
     </option>
@@ -288,12 +256,12 @@
       <workItem from="1545421003823" duration="13000" />
       <workItem from="1545421218939" duration="13000" />
       <workItem from="1547665728067" duration="13000" />
-      <workItem from="1547832757859" duration="1758000" />
+      <workItem from="1547832757859" duration="2721000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53996000" />
+    <option name="totallyTimeSpent" value="54959000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1680" height="1023" extended-state="6" />
@@ -613,13 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/single.pcss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2745">
-          <caret line="183" column="30" selection-start-line="183" selection-start-column="30" selection-end-line="183" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -634,31 +595,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
+    <entry file="file://$PROJECT_DIR$/src/single.pcss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="456" column="98" selection-start-line="456" selection-start-column="98" selection-end-line="456" selection-end-column="98" />
+        <state relative-caret-position="208">
+          <caret line="675" column="16" selection-start-line="675" selection-start-column="3" selection-end-line="675" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/general.pcss">
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="283" column="24" selection-start-line="283" selection-start-column="24" selection-end-line="283" selection-end-column="24" />
+        <state relative-caret-position="300">
+          <caret line="20" column="164" selection-start-line="20" selection-start-column="164" selection-end-line="20" selection-end-column="164" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/variables.pcss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        <state relative-caret-position="75">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/general.pcss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="1055" column="3" lean-forward="true" selection-start-line="1055" selection-start-column="3" selection-end-line="1055" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/home.pcss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="306" column="23" selection-start-line="306" selection-start-column="23" selection-end-line="306" selection-end-column="23" />
+        <state relative-caret-position="326">
+          <caret line="479" column="29" selection-start-line="479" selection-start-column="29" selection-end-line="479" selection-end-column="29" />
         </state>
       </provider>
     </entry>
