@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cda8546b-8c7a-47db-a3ca-66984a65e619" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/heart_active.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/heart_active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/heart_active.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/heart_active.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/heart_active@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/heart_active@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/heart_inactive.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/heart_inactive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/heart_inactive.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/heart_inactive.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/heart_inactive@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/heart_inactive@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/star_active.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/star_active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/star_active.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/star_active.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/star_active@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon/star_active@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/single.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/general.pcss" beforeDir="false" afterPath="$PROJECT_DIR$/src/general.pcss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/single.pcss" beforeDir="false" afterPath="$PROJECT_DIR$/src/single.pcss" afterDir="false" />
     </list>
@@ -50,8 +39,8 @@
       <file leaf-file-name="general.pcss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/general.pcss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="964" column="29" selection-start-line="964" selection-start-column="29" selection-end-line="964" selection-end-column="29" />
+            <state relative-caret-position="338">
+              <caret line="373" column="20" lean-forward="true" selection-start-line="373" selection-start-column="20" selection-end-line="373" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -59,8 +48,8 @@
       <file leaf-file-name="single.pcss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/single.pcss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="652" column="30" selection-start-line="652" selection-start-column="30" selection-end-line="652" selection-end-column="30" />
+            <state relative-caret-position="342">
+              <caret line="524" column="29" selection-start-line="524" selection-start-column="29" selection-end-line="524" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -92,13 +81,11 @@
       <find>banner_general</find>
       <find>subtittle</find>
       <find>p {</find>
-      <find>h1</find>
       <find>principal</find>
       <find>h5</find>
       <find>fact_component</find>
       <find>star</find>
       <find>box_input</find>
-      <find>form_review</find>
       <find>box_reviews</find>
       <find>box_name</find>
       <find>btn_small</find>
@@ -108,6 +95,8 @@
       <find>violet</find>
       <find>btn_medium</find>
       <find>--violeta</find>
+      <find>h1</find>
+      <find>form_review</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -264,12 +253,12 @@
       <workItem from="1545421218939" duration="13000" />
       <workItem from="1547665728067" duration="13000" />
       <workItem from="1547832757859" duration="5034000" />
-      <workItem from="1548074536793" duration="1095000" />
+      <workItem from="1548074536793" duration="1387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58367000" />
+    <option name="totallyTimeSpent" value="58659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -626,15 +615,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/general.pcss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="964" column="29" selection-start-line="964" selection-start-column="29" selection-end-line="964" selection-end-column="29" />
+        <state relative-caret-position="338">
+          <caret line="373" column="20" lean-forward="true" selection-start-line="373" selection-start-column="20" selection-end-line="373" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/single.pcss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="652" column="30" selection-start-line="652" selection-start-column="30" selection-end-line="652" selection-end-column="30" />
+        <state relative-caret-position="342">
+          <caret line="524" column="29" selection-start-line="524" selection-start-column="29" selection-end-line="524" selection-end-column="29" />
         </state>
       </provider>
     </entry>

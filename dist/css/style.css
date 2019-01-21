@@ -3546,8 +3546,8 @@ article .box_info {
   }
 
   h1{
-    font-size: 43px;
-    line-height: 43px;
+    font-size: 38px;
+    line-height: 38px;
   }
 
   h2{
@@ -6027,8 +6027,8 @@ article .box_info {
   }
 
   h1{
-    font-size: 45px;
-    line-height: 45px;
+    font-size: 40px;
+    line-height: 40px;
   }
 
   h2{
@@ -6967,6 +6967,10 @@ article .box_info {
 
   #box_reviews .white_box .box_stars{
     margin: 0 0 16px;
+  }
+
+  #box_reviews .form_review .btn_medium{
+    margin: 0 0 -20px;
   }
 
   #box_reviews .full_box:last-child .btn_small{
@@ -8681,7 +8685,6 @@ article .box_info {
 
   #box_reviews .form_review .btn_medium{
     width: 170px;
-    margin: 0 0 -20px;
   }
 
   #box_reviews .box_input{
