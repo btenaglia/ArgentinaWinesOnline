@@ -226,7 +226,7 @@ h4 {
   float: left;
   width: 100%;
   font-family: 'Roboto Slab', serif;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 0.8;
   color: #7A1E47;
   letter-spacing: 0;
@@ -6032,8 +6032,8 @@ article .box_info {
   }
 
   h2{
-    font-size: 35px;
-    line-height: 35px;
+    font-size: 32px;
+    line-height: 32px;
   }
 
   h2.small{
@@ -7859,8 +7859,8 @@ article .box_info {
   }
 
   h2{
-    font-size: 38px;
-    line-height: 38px;
+    font-size: 35px;
+    line-height: 35px;
     margin: 0 0 13px;
   }
 
@@ -9540,8 +9540,8 @@ article .box_info {
   }
 
   h2{
-    font-size: 42px;
-    line-height: 42px;
+    font-size: 38px;
+    line-height: 38px;
     margin: 0 0 15px;
   }
 
