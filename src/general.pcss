@@ -379,8 +379,8 @@ h1 {
     line-height: 45px;
   }
   @media (--desktop) {
-    font-size: 52px;
-    line-height: 52px;
+    font-size: 48px;
+    line-height: 48px;
   }
 }
 h2 {
@@ -490,7 +490,7 @@ h5 {
   float: left;
   width: 100%;
   font-family: var(--font3);
-  font-weight: var(--regular);
+  font-weight: var(--bold);
   color: var(--gris);
   letter-spacing: 0;
   margin: 0;
@@ -917,7 +917,7 @@ img {
   &:hover {
     @media (--tabletland) {
       background: var(--negro);
-      color: var(--violeta);
+      color: var(--violetaclaro);
     }
   }
 }
@@ -962,17 +962,17 @@ img {
     }
   }
   &.dorado {
-    background: var(--dorado);
+    background: var(--violeta);
     border: 1px solid var(--dorado);
     &:hover {
       @media (--tabletland) {
-        color: var(--dorado);
+        color: var(--violetaclaro);
       }
     }
   }
 }
 .btn_small {
-  @mixin BtnSmall var(--blanco) , var(--dorado) , var(--dorado) , var(--negro) {};
+  @mixin BtnSmall var(--blanco) , var(--dorado) , var(--violetaclaro) , var(--negro) {};
   &.dorado {
     background: var(--dorado);
     border: 1px solid var(--dorado);

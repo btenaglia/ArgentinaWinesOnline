@@ -242,7 +242,7 @@ h5 {
   float: left;
   width: 100%;
   font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   color: #898989;
   letter-spacing: 0;
   margin: 0;
@@ -1618,7 +1618,7 @@ img {
   float: left;
   width: 100%;
   font-weight: 900;
-  color: #EE9800;
+  color: #CC99B2;
   letter-spacing: 0;
   line-height: 0.8;
   margin: 0 0 15px;
@@ -1668,6 +1668,10 @@ img {
 
 .box_product_single .box_actions input::placeholder {
   color: #898989;
+}
+
+.box_product_single .box_actions .btn {
+  width: 100%;
 }
 
 .box_product_single .principal {
@@ -1768,7 +1772,7 @@ img {
 .fact_component .comp {
   float: left;
   width: 100%;
-  font-weight: 400;
+  font-weight: 700;
   color: #BBBBBB;
   letter-spacing: 0;
   line-height: 0.8;
@@ -1799,8 +1803,8 @@ img {
 
 #box_reviews .tittle {
   font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 400;
-  color: #EE9800;
+  font-weight: 700;
+  color: #CC99B2;
   letter-spacing: 0;
   line-height: 0.8;
 }
@@ -1819,6 +1823,10 @@ img {
   width: 100%;
 }
 
+#box_reviews .form_review .btn_medium {
+  border: 0 none;
+}
+
 #box_reviews .box_input {
   float: left;
   width: 100%;
@@ -1827,10 +1835,11 @@ img {
 #box_reviews .box_input label {
   float: left;
   width: 100%;
-  font-weight: 400;
+  font-weight: 700;
   color: #BBBBBB;
   letter-spacing: 0;
   line-height: 0.8;
+  margin: 0;
 }
 
 #box_reviews .box_input input {
@@ -1897,7 +1906,7 @@ img {
 #box_reviews .box_name .name {
   float: left;
   font-weight: 900;
-  color: #7A1E47;
+  color: #CC99B2;
   letter-spacing: 0;
   margin: 0 10px 0 0;
 }
@@ -7981,7 +7990,7 @@ article .box_info {
 
   .btn:hover{
     background: #231F20;
-    color: #7A1E47;
+    color: #CC99B2;
   }
 
   .btn_medium{
@@ -7996,7 +8005,7 @@ article .box_info {
   }
 
   .btn_medium.dorado:hover{
-    color: #7A1E47;
+    color: #CC99B2;
   }
 
   .btn_small{
@@ -8005,7 +8014,7 @@ article .box_info {
 
   .btn_small:hover{
     background: #231F20;
-    color: #7A1E47;
+    color: #CC99B2;
   }
 
   .btn_small.dorado:hover{
@@ -9523,8 +9532,8 @@ article .box_info {
   }
 
   h1{
-    font-size: 52px;
-    line-height: 52px;
+    font-size: 48px;
+    line-height: 48px;
   }
 
   h2{
