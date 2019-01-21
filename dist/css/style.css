@@ -2863,7 +2863,7 @@ article .box_info {
 #box_about_pics {
   float: left;
   width: 100vw;
-  background: #7A1E47;
+  background: #CC99B2;
 }
 
 #box_about_pics .pic {
@@ -2898,6 +2898,15 @@ article .box_info {
   margin: auto !important;
 }
 
+#box_delivery_info .tittle_center {
+  color: #993366;
+}
+
+#box_delivery_info .tittle_center:before,
+    #box_delivery_info .tittle_center:after {
+  background: #993366;
+}
+
 .full_result_delivery {
   float: left;
   width: 100%;
@@ -2919,7 +2928,7 @@ article .box_info {
 .full_table .box_world {
   float: left;
   width: 100%;
-  background: #7A1E47;
+  background: #993366;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 500;
   color: #ffffff;
@@ -2969,7 +2978,7 @@ article .box_info {
   width: 100%;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 500;
-  color: #7A1E47;
+  color: #993366;
   letter-spacxing: 0;
   padding: 15px 0;
   text-align: center !important;
@@ -2980,7 +2989,7 @@ article .box_info {
   width: 100%;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 500;
-  color: #7A1E47;
+  color: #993366;
   letter-spacing: 0;
 }
 
@@ -9546,8 +9555,8 @@ article .box_info {
   }
 
   h2.small{
-    font-size: 32px;
-    line-height: 32px;
+    font-size: 30px;
+    line-height: 30px;
   }
 
   h3{
