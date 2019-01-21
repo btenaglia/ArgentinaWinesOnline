@@ -2397,7 +2397,7 @@ img {
 
 .box_input input:focus{
   color: #231F20;
-  border-bottom: 1px solid #EE9800;
+  border-bottom: 1px solid #7A1E47;
 }
 
 .box_input input:focus::-webkit-input-placeholder{
@@ -2472,7 +2472,7 @@ img {
 
 .box_input textarea:focus{
   color: #231F20;
-  border-bottom: 1px solid #EE9800;
+  border-bottom: 1px solid #7A1E47;
 }
 
 .box_input textarea:focus::-webkit-input-placeholder{
@@ -9095,7 +9095,7 @@ article .box_info {
 
   .box_input .select:hover{
     color: #231F20;
-    border-bottom: 1px solid #EE9800;
+    border-bottom: 1px solid #7A1E47;
   }
 
   .box_input .select_result{
