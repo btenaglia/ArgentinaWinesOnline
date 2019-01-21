@@ -3059,7 +3059,7 @@ article .box_info {
   width: -moz-calc(100% - 20px);
   width: calc(100% - 20px);
   padding: 10px;
-  background: #CE922E;
+  background: #7A1E47;
   -webkit-box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.40);
      -moz-box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.40);
           box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.40);
@@ -3566,8 +3566,8 @@ article .box_info {
   }
 
   h2.small{
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 24px;
+    line-height: 24px;
   }
 
   h3{
